@@ -1,0 +1,20 @@
+{
+  "name": "@tv-screener/api",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "generate:openapi": "node --import tsx src/generate-openapi.ts"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^9.5.1",
+    "@fastify/swagger-ui": "^5.2.3",
+    "@tv-screener/core": "0.1.0",
+    "fastify": "^5.6.1"
+  }
+}

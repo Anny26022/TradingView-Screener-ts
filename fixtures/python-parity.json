@@ -1,0 +1,743 @@
+{
+  "and_or": {
+    "operation": {
+      "operands": [
+        {
+          "operation": {
+            "operands": [
+              {
+                "operation": {
+                  "operands": [
+                    {
+                      "expression": {
+                        "left": "type",
+                        "operation": "equal",
+                        "right": "stock"
+                      }
+                    },
+                    {
+                      "expression": {
+                        "left": "typespecs",
+                        "operation": "has",
+                        "right": [
+                          "common"
+                        ]
+                      }
+                    }
+                  ],
+                  "operator": "and"
+                }
+              },
+              {
+                "operation": {
+                  "operands": [
+                    {
+                      "expression": {
+                        "left": "type",
+                        "operation": "equal",
+                        "right": "stock"
+                      }
+                    },
+                    {
+                      "expression": {
+                        "left": "typespecs",
+                        "operation": "has",
+                        "right": [
+                          "preferred"
+                        ]
+                      }
+                    }
+                  ],
+                  "operator": "and"
+                }
+              },
+              {
+                "operation": {
+                  "operands": [
+                    {
+                      "expression": {
+                        "left": "type",
+                        "operation": "equal",
+                        "right": "dr"
+                      }
+                    }
+                  ],
+                  "operator": "and"
+                }
+              },
+              {
+                "operation": {
+                  "operands": [
+                    {
+                      "expression": {
+                        "left": "type",
+                        "operation": "equal",
+                        "right": "fund"
+                      }
+                    },
+                    {
+                      "expression": {
+                        "left": "typespecs",
+                        "operation": "has_none_of",
+                        "right": [
+                          "etf"
+                        ]
+                      }
+                    }
+                  ],
+                  "operator": "and"
+                }
+              }
+            ],
+            "operator": "or"
+          }
+        }
+      ],
+      "operator": "and"
+    }
+  },
+  "column_operations": {
+    "above_pct": {
+      "left": "close",
+      "operation": "above%",
+      "right": [
+        "VWAP",
+        1.03
+      ]
+    },
+    "below_pct": {
+      "left": "close",
+      "operation": "below%",
+      "right": [
+        "VWAP",
+        1.03
+      ]
+    },
+    "between_columns": {
+      "left": "close",
+      "operation": "in_range",
+      "right": [
+        "EMA5",
+        "EMA20"
+      ]
+    },
+    "between_numbers": {
+      "left": "close",
+      "operation": "in_range",
+      "right": [
+        2.5,
+        15
+      ]
+    },
+    "between_pct": {
+      "left": "close",
+      "operation": "in_range%",
+      "right": [
+        "EMA200",
+        1.2,
+        1.5
+      ]
+    },
+    "crosses": {
+      "left": "MACD.macd",
+      "operation": "crosses",
+      "right": "MACD.signal"
+    },
+    "crosses_above": {
+      "left": "MACD.macd",
+      "operation": "crosses_above",
+      "right": "MACD.signal"
+    },
+    "crosses_below": {
+      "left": "MACD.macd",
+      "operation": "crosses_below",
+      "right": "MACD.signal"
+    },
+    "empty": {
+      "left": "premarket_change",
+      "operation": "empty",
+      "right": null
+    },
+    "eq_string": {
+      "left": "type",
+      "operation": "equal",
+      "right": "stock"
+    },
+    "ge_column": {
+      "left": "close",
+      "operation": "egreater",
+      "right": "VWAP"
+    },
+    "gt_number": {
+      "left": "close",
+      "operation": "greater",
+      "right": 2.5
+    },
+    "has": {
+      "left": "typespecs",
+      "operation": "has",
+      "right": [
+        "common"
+      ]
+    },
+    "has_none_of": {
+      "left": "typespecs",
+      "operation": "has_none_of",
+      "right": [
+        "reit",
+        "etn",
+        "etf"
+      ]
+    },
+    "in_day_range": {
+      "left": "earnings_release_next_trading_date_fq",
+      "operation": "in_day_range",
+      "right": [
+        0,
+        0
+      ]
+    },
+    "in_month_range": {
+      "left": "earnings_release_next_trading_date_fq",
+      "operation": "in_month_range",
+      "right": [
+        0,
+        3
+      ]
+    },
+    "in_week_range": {
+      "left": "earnings_release_next_trading_date_fq",
+      "operation": "in_week_range",
+      "right": [
+        0,
+        2
+      ]
+    },
+    "isin": {
+      "left": "exchange",
+      "operation": "in_range",
+      "right": [
+        "AMEX",
+        "NASDAQ",
+        "NYSE"
+      ]
+    },
+    "le_column": {
+      "left": "close",
+      "operation": "eless",
+      "right": "high"
+    },
+    "like": {
+      "left": "description",
+      "operation": "match",
+      "right": "apple"
+    },
+    "lt_number": {
+      "left": "close",
+      "operation": "less",
+      "right": 100
+    },
+    "ne_string": {
+      "left": "exchange",
+      "operation": "nequal",
+      "right": "OTC"
+    },
+    "not_between": {
+      "left": "close",
+      "operation": "not_in_range",
+      "right": [
+        2.5,
+        15
+      ]
+    },
+    "not_between_pct": {
+      "left": "close",
+      "operation": "not_in_range%",
+      "right": [
+        "EMA200",
+        1.2,
+        1.5
+      ]
+    },
+    "not_empty": {
+      "left": "premarket_change",
+      "operation": "nempty",
+      "right": null
+    },
+    "not_in": {
+      "left": "sector",
+      "operation": "not_in_range",
+      "right": [
+        "Health Technology",
+        "Health Services"
+      ]
+    },
+    "not_like": {
+      "left": "description",
+      "operation": "nmatch",
+      "right": "apple"
+    }
+  },
+  "query": {
+    "copy_shallow_after_original_mutation": {
+      "copied_query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": [
+            "NASDAQ:NVDA"
+          ]
+        }
+      },
+      "original_query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": [
+            "NASDAQ:NVDA"
+          ]
+        }
+      }
+    },
+    "copy_shallow_before": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/america/scan"
+    },
+    "default": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/america/scan"
+    },
+    "select_where_order_offset_limit": {
+      "query": {
+        "columns": [
+          "name",
+          "close|1",
+          "volume"
+        ],
+        "filter": [
+          {
+            "left": "market_cap_basic",
+            "operation": "in_range",
+            "right": [
+              1000000,
+              50000000
+            ]
+          },
+          {
+            "left": "relative_volume_10d_calc",
+            "operation": "greater",
+            "right": 1.2
+          }
+        ],
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          5,
+          25
+        ],
+        "sort": {
+          "nullsFirst": false,
+          "sortBy": "volume",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/america/scan"
+    },
+    "set_index": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [],
+        "options": {
+          "lang": "en"
+        },
+        "preset": "index_components_market_pages",
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "symbolset": [
+            "SYML:SP;SPX",
+            "SYML:TVC;UKX"
+          ],
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/global/scan"
+    },
+    "set_markets_multi": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [
+          "america",
+          "israel"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/global/scan"
+    },
+    "set_markets_single": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [
+          "crypto"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/crypto/scan"
+    },
+    "set_property": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "custom": {
+          "x": 1
+        },
+        "ignore_unknown_fields": true,
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/america/scan"
+    },
+    "set_tickers": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "markets": [],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": [
+            "NASDAQ:TSLA",
+            "NYSE:GME"
+          ]
+        }
+      },
+      "url": "https://scanner.tradingview.com/global/scan"
+    },
+    "where2_nested": {
+      "query": {
+        "columns": [
+          "name",
+          "close",
+          "volume",
+          "market_cap_basic"
+        ],
+        "filter2": {
+          "operands": [
+            {
+              "operation": {
+                "operands": [
+                  {
+                    "operation": {
+                      "operands": [
+                        {
+                          "expression": {
+                            "left": "type",
+                            "operation": "equal",
+                            "right": "stock"
+                          }
+                        },
+                        {
+                          "expression": {
+                            "left": "typespecs",
+                            "operation": "has",
+                            "right": [
+                              "common"
+                            ]
+                          }
+                        }
+                      ],
+                      "operator": "and"
+                    }
+                  },
+                  {
+                    "operation": {
+                      "operands": [
+                        {
+                          "expression": {
+                            "left": "type",
+                            "operation": "equal",
+                            "right": "stock"
+                          }
+                        },
+                        {
+                          "expression": {
+                            "left": "typespecs",
+                            "operation": "has",
+                            "right": [
+                              "preferred"
+                            ]
+                          }
+                        }
+                      ],
+                      "operator": "and"
+                    }
+                  },
+                  {
+                    "operation": {
+                      "operands": [
+                        {
+                          "expression": {
+                            "left": "type",
+                            "operation": "equal",
+                            "right": "dr"
+                          }
+                        }
+                      ],
+                      "operator": "and"
+                    }
+                  },
+                  {
+                    "operation": {
+                      "operands": [
+                        {
+                          "expression": {
+                            "left": "type",
+                            "operation": "equal",
+                            "right": "fund"
+                          }
+                        },
+                        {
+                          "expression": {
+                            "left": "typespecs",
+                            "operation": "has_none_of",
+                            "right": [
+                              "etf"
+                            ]
+                          }
+                        }
+                      ],
+                      "operator": "and"
+                    }
+                  }
+                ],
+                "operator": "or"
+              }
+            }
+          ],
+          "operator": "and"
+        },
+        "markets": [
+          "america"
+        ],
+        "options": {
+          "lang": "en"
+        },
+        "range": [
+          0,
+          50
+        ],
+        "sort": {
+          "sortBy": "Value.Traded",
+          "sortOrder": "desc"
+        },
+        "symbols": {
+          "query": {
+            "types": []
+          },
+          "tickers": []
+        }
+      },
+      "url": "https://scanner.tradingview.com/america/scan"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Production API image (Node/TypeScript only).
+# Intentionally does NOT install Python.
+FROM node:22-alpine
+
+WORKDIR /app
+
+# Install workspace dependencies (including tsx runtime loader used for app start)
+COPY package*.json ./
+COPY tsconfig*.json ./
+COPY apps/api/package.json apps/api/package.json
+COPY packages/core/package.json packages/core/package.json
+COPY packages/client/package.json packages/client/package.json
+RUN npm ci --include=dev
+
+# Copy source + metadata snapshots
+COPY apps ./apps
+COPY packages ./packages
+
+ENV NODE_ENV=production
+ENV HOST=0.0.0.0
+ENV PORT=3000
+
+EXPOSE 3000
+
+CMD ["node", "--import", "tsx", "apps/api/src/index.ts"]

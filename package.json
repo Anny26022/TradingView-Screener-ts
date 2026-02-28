@@ -1,0 +1,31 @@
+{
+  "name": "tradingview-screener-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "test": "npm run test --workspaces --if-present",
+    "dev": "npm --workspace @tv-screener/api run dev",
+    "generate:fixtures": "python3 scripts/generate_parity_fixtures.py",
+    "generate:metadata": "node --import tsx scripts/sync-metadata.ts",
+    "generate:openapi": "npm --workspace @tv-screener/api run generate:openapi",
+    "generate:client:types": "openapi-typescript apps/api/openapi.json -o packages/client/src/generated/api-types.ts",
+    "generate:all": "npm run generate:fixtures && npm run generate:metadata && npm run generate:openapi && npm run generate:client:types",
+    "parity:report": "node --import tsx scripts/parity-report.ts",
+    "readme:audit": "python3 scripts/readme_examples_audit.py",
+    "audit:all": "npm run parity:report && npm run readme:audit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "cheerio": "^1.1.2",
+    "openapi-typescript": "^7.10.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

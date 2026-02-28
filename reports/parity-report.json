@@ -1,0 +1,327 @@
+{
+  "generatedAt": "2026-02-28T05:09:03.380Z",
+  "summary": {
+    "total": 52,
+    "pass": 41,
+    "fail": 0,
+    "na": 11
+  },
+  "rows": [
+    {
+      "area": "Query methods",
+      "item": "__eq__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Query methods",
+      "item": "__init__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Query methods",
+      "item": "__repr__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Query methods",
+      "item": "copy",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "get_scanner_data",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "get_scanner_data_raw",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "limit",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "offset",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "order_by",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "select",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "set_index",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "set_markets",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "set_property",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "set_tickers",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "where",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Query methods",
+      "item": "where2",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "__eq__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__ge__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__gt__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__init__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__le__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__lt__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__ne__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "__repr__",
+      "status": "N/A",
+      "details": "Python dunder/operator overload; not directly portable to TS syntax."
+    },
+    {
+      "area": "Column methods",
+      "item": "above_pct",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "below_pct",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "between",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "between_pct",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "crosses",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "crosses_above",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "crosses_below",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "empty",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "has",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "has_none_of",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "in_day_range",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "in_month_range",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "in_week_range",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "isin",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "like",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "not_between",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "not_between_pct",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "not_empty",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "not_in",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Column methods",
+      "item": "not_like",
+      "status": "PASS",
+      "details": "method present in TS surface"
+    },
+    {
+      "area": "Operation tokens",
+      "item": "token-set-parity",
+      "status": "PASS",
+      "details": "matched 25 operation tokens"
+    },
+    {
+      "area": "Defaults",
+      "item": "query-default-payload",
+      "status": "PASS",
+      "details": "python_url=https://scanner.tradingview.com/america/scan, ts_url=https://scanner.tradingview.com/america/scan"
+    },
+    {
+      "area": "Top-level symbols",
+      "item": "Query",
+      "status": "PASS",
+      "details": "python=true, ts=true"
+    },
+    {
+      "area": "Top-level symbols",
+      "item": "Column",
+      "status": "PASS",
+      "details": "python=true, ts=true"
+    },
+    {
+      "area": "Top-level symbols",
+      "item": "And",
+      "status": "PASS",
+      "details": "python=true, ts=true"
+    },
+    {
+      "area": "Top-level symbols",
+      "item": "Or",
+      "status": "PASS",
+      "details": "python=true, ts=true"
+    },
+    {
+      "area": "Top-level symbols",
+      "item": "col",
+      "status": "PASS",
+      "details": "python=true, ts=true"
+    },
+    {
+      "area": "Utility parity",
+      "item": "format_technical_rating",
+      "status": "PASS",
+      "details": "threshold behavior matches python util.py"
+    }
+  ],
+  "notes": [
+    "N/A rows are Python-specific dunder/operator overload semantics that TypeScript cannot mirror syntactically.",
+    "Logical parity is still provided through method forms (gt/ge/eq/etc.)."
+  ]
+}

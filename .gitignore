@@ -6,3 +6,6 @@ docs/
 data/
 dist/
 trash/
+node_modules/
+coverage/
+*.tsbuildinfo

@@ -1,0 +1,133 @@
+{
+  "summary": {
+    "total_blocks": 9,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 3
+  },
+  "results": [
+    {
+      "index": 1,
+      "status": "PASS",
+      "reason": "runnable in this environment",
+      "details": "(19456,           ticker   name    close     volume  market_cap_basic\n0       AMEX:SPY    SPY   685.99   83307186               NaN\n1    NASDAQ:NVDA   NVDA   177.19  311628298      4.305717e+12\n2     NASDAQ:QQQ    QQQ   607.29   68123992               NaN\n3    NASDAQ:TSLA   TSLA   402.51   56886923      1.510391e+12\n4    NASDAQ:MSFT   MSFT   392.74   51366800      2.916342e+12\n5    NASDAQ:NFLX   NFLX    96.24  200763399      4.063409e+11\n6    NASDAQ:AAPL   AAPL   264.18   72366505      3.878464e",
+      "preview": [
+        "from tradingview_screener import Query",
+        "",
+        "x = (Query()"
+      ],
+      "ts_notes": [
+        "TS/REST returns JSON rows (not pandas DataFrame)."
+      ]
+    },
+    {
+      "index": 2,
+      "status": "PASS",
+      "reason": "runnable in this environment",
+      "details": "ok",
+      "preview": [
+        "from tradingview_screener import Query, col",
+        "",
+        "(Query()"
+      ],
+      "ts_notes": [
+        "TypeScript requires method form for comparisons (e.g., `.ge()`, `.gt()`, `.eq()`).",
+        "TS/REST returns JSON rows (not pandas DataFrame)."
+      ]
+    },
+    {
+      "index": 3,
+      "status": "PASS",
+      "reason": "runnable in this environment",
+      "details": "exchange  update_mode          \nAMEX      delayed_streaming_900    2868\nCBOE      delayed_streaming_900    1207\nNASDAQ    delayed_streaming_900    4838\nNYSE      delayed_streaming_900    2807\nOTC       delayed_streaming_900    7736\nName: count, dtype: int64",
+      "preview": [
+        "from tradingview_screener import Query",
+        "",
+        "_, df = Query().select('exchange', 'update_mode').limit(1_000_000).get_scanner_data()"
+      ],
+      "ts_notes": [
+        "TS/REST returns JSON rows (not pandas DataFrame)."
+      ]
+    },
+    {
+      "index": 4,
+      "status": "SKIP",
+      "reason": "requires optional rookiepy dependency and local browser cookies",
+      "preview": [
+        "    import rookiepy",
+        "    cookies = rookiepy.to_cookiejar(rookiepy.chrome(['.tradingview.com']))  # replace chrome() with your browser",
+        "    "
+      ],
+      "ts_notes": []
+    },
+    {
+      "index": 5,
+      "status": "PASS",
+      "reason": "runnable in this environment",
+      "details": "ok",
+      "preview": [
+        "    Query().get_scanner_data(cookies=cookies)",
+        "    "
+      ],
+      "ts_notes": [
+        "TS/REST returns JSON rows (not pandas DataFrame).",
+        "TS/REST supports per-request `cookie` or `sessionid` request options."
+      ]
+    },
+    {
+      "index": 6,
+      "status": "PASS",
+      "reason": "runnable in this environment",
+      "details": "exchange  update_mode          \nAMEX      delayed_streaming_900    2868\nCBOE      delayed_streaming_900    1207\nNASDAQ    delayed_streaming_900    4838\nNYSE      delayed_streaming_900    2807\nOTC       delayed_streaming_900    7736\nName: count, dtype: int64",
+      "preview": [
+        "_, df = Query().select('exchange', 'update_mode').limit(1_000_000).get_scanner_data(cookies=cookies)",
+        "df = df.groupby('exchange')['update_mode'].value_counts()",
+        "print(df)"
+      ],
+      "ts_notes": [
+        "TS/REST returns JSON rows (not pandas DataFrame).",
+        "TS/REST supports per-request `cookie` or `sessionid` request options."
+      ]
+    },
+    {
+      "index": 7,
+      "status": "SKIP",
+      "reason": "contains placeholder credentials/session values",
+      "preview": [
+        "    cookies = {'sessionid': '<your-session-id>'}",
+        "    Query().get_scanner_data(cookies=cookies)",
+        "    "
+      ],
+      "ts_notes": [
+        "TS/REST returns JSON rows (not pandas DataFrame).",
+        "TS/REST supports per-request `cookie` or `sessionid` request options."
+      ]
+    },
+    {
+      "index": 8,
+      "status": "SKIP",
+      "reason": "contains placeholder credentials/session values",
+      "preview": [
+        "from http.cookiejar import CookieJar",
+        "",
+        "import requests"
+      ],
+      "ts_notes": [
+        "TS/REST returns JSON rows (not pandas DataFrame).",
+        "TS/REST supports per-request `cookie` or `sessionid` request options."
+      ]
+    },
+    {
+      "index": 9,
+      "status": "PASS",
+      "reason": "runnable in this environment",
+      "details": "ok",
+      "preview": [
+        "{",
+        "    'markets': ['america'],",
+        "    'symbols': {'query': {'types': []}, 'tickers': []},"
+      ],
+      "ts_notes": []
+    }
+  ]
+}
