@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-04-25T07:00:15.959Z",
+  "generatedAt": "2026-04-26T07:14:26.690Z",
   "universes": {
     "stocks": [
       {
@@ -158,23 +158,6 @@
           "volume|240",
           "volume|1W",
           "volume|1M"
-        ]
-      },
-      {
-        "name": "Value.Traded",
-        "displayName": "Volume*Price",
-        "type": "number",
-        "variants": [
-          "Value.Traded",
-          "Value.Traded|1",
-          "Value.Traded|5",
-          "Value.Traded|15",
-          "Value.Traded|30",
-          "Value.Traded|60",
-          "Value.Traded|120",
-          "Value.Traded|240",
-          "Value.Traded|1W",
-          "Value.Traded|1M"
         ]
       },
       {
@@ -6510,6 +6493,14 @@
         ]
       },
       {
+        "name": "cfi_code",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "cfi_code"
+        ]
+      },
+      {
         "name": "continuous_dividend_growth",
         "displayName": "",
         "type": "number",
@@ -6891,6 +6882,14 @@
         "type": "fundamental_price",
         "variants": [
           "dps_common_stock_prim_issue_ttm"
+        ]
+      },
+      {
+        "name": "earnings_fq_h",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "earnings_fq_h"
         ]
       },
       {
@@ -7986,6 +7985,38 @@
         ]
       },
       {
+        "name": "income_from_cont_ops_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "income_from_cont_ops_fh"
+        ]
+      },
+      {
+        "name": "income_from_cont_ops_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "income_from_cont_ops_fq"
+        ]
+      },
+      {
+        "name": "income_from_cont_ops_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "income_from_cont_ops_fy"
+        ]
+      },
+      {
+        "name": "income_from_cont_ops_ttm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "income_from_cont_ops_ttm"
+        ]
+      },
+      {
         "name": "index_id",
         "displayName": "",
         "type": "text",
@@ -8272,6 +8303,14 @@
         "type": "time",
         "variants": [
           "last-price-update-time"
+        ]
+      },
+      {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
         ]
       },
       {
@@ -8841,6 +8880,70 @@
         "type": "percent",
         "variants": [
           "net_margin_ttm"
+        ]
+      },
+      {
+        "name": "net_revenue_after_provision_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_after_provision_fh"
+        ]
+      },
+      {
+        "name": "net_revenue_after_provision_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_after_provision_fq"
+        ]
+      },
+      {
+        "name": "net_revenue_after_provision_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_after_provision_fy"
+        ]
+      },
+      {
+        "name": "net_revenue_after_provision_ttm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_after_provision_ttm"
+        ]
+      },
+      {
+        "name": "net_revenue_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_fh"
+        ]
+      },
+      {
+        "name": "net_revenue_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_fq"
+        ]
+      },
+      {
+        "name": "net_revenue_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_fy"
+        ]
+      },
+      {
+        "name": "net_revenue_ttm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_revenue_ttm"
         ]
       },
       {
@@ -9791,6 +9894,14 @@
         ]
       },
       {
+        "name": "revenues_fq_h",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "revenues_fq_h"
+        ]
+      },
+      {
         "name": "rtc",
         "displayName": "",
         "type": "price",
@@ -10655,23 +10766,6 @@
           "volume|240",
           "volume|1W",
           "volume|1M"
-        ]
-      },
-      {
-        "name": "Value.Traded",
-        "displayName": "Volume*Price",
-        "type": "number",
-        "variants": [
-          "Value.Traded",
-          "Value.Traded|1",
-          "Value.Traded|5",
-          "Value.Traded|15",
-          "Value.Traded|30",
-          "Value.Traded|60",
-          "Value.Traded|120",
-          "Value.Traded|240",
-          "Value.Traded|1W",
-          "Value.Traded|1M"
         ]
       },
       {
@@ -16628,6 +16722,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -16872,116 +16974,13 @@
         ]
       },
       {
-        "name": "rates_cf",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_cf"
-        ]
-      },
-      {
-        "name": "rates_current",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_current"
-        ]
-      },
-      {
-        "name": "rates_dividend_recent",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_dividend_recent"
-        ]
-      },
-      {
-        "name": "rates_dividend_upcoming",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_dividend_upcoming"
-        ]
-      },
-      {
-        "name": "rates_earnings_fq",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_earnings_fq"
-        ]
-      },
-      {
-        "name": "rates_earnings_next_fq",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_earnings_next_fq"
-        ]
-      },
-      {
-        "name": "rates_fh",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_fh"
-        ]
-      },
-      {
-        "name": "rates_fq",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_fq"
-        ]
-      },
-      {
-        "name": "rates_fy",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_fy"
-        ]
-      },
-      {
-        "name": "rates_mc",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_mc"
-        ]
-      },
-      {
-        "name": "rates_pt",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_pt"
-        ]
-      },
-      {
-        "name": "rates_time_series",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_time_series"
-        ]
-      },
-      {
-        "name": "rates_ttm",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_ttm"
-        ]
-      },
-      {
         "name": "relative_volume_10d_calc_usd",
         "displayName": "",
         "type": "number",
         "variants": [
           "relative_volume_10d_calc_usd",
           "relative_volume_10d_calc_usd|1",
+          "relative_volume_10d_calc_usd|5",
           "relative_volume_10d_calc_usd|15",
           "relative_volume_10d_calc_usd|30",
           "relative_volume_10d_calc_usd|60",
@@ -17426,23 +17425,6 @@
           "volume|240",
           "volume|1W",
           "volume|1M"
-        ]
-      },
-      {
-        "name": "Value.Traded",
-        "displayName": "Volume*Price",
-        "type": "number",
-        "variants": [
-          "Value.Traded",
-          "Value.Traded|1",
-          "Value.Traded|5",
-          "Value.Traded|15",
-          "Value.Traded|30",
-          "Value.Traded|60",
-          "Value.Traded|120",
-          "Value.Traded|240",
-          "Value.Traded|1W",
-          "Value.Traded|1M"
         ]
       },
       {
@@ -22815,6 +22797,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -23451,23 +23441,6 @@
           "volume|240",
           "volume|1W",
           "volume|1M"
-        ]
-      },
-      {
-        "name": "Value.Traded",
-        "displayName": "Volume*Price",
-        "type": "number",
-        "variants": [
-          "Value.Traded",
-          "Value.Traded|1",
-          "Value.Traded|5",
-          "Value.Traded|15",
-          "Value.Traded|30",
-          "Value.Traded|60",
-          "Value.Traded|120",
-          "Value.Traded|240",
-          "Value.Traded|1W",
-          "Value.Traded|1M"
         ]
       },
       {
@@ -29171,6 +29144,14 @@
         ]
       },
       {
+        "name": "funding_rate",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "funding_rate"
+        ]
+      },
+      {
         "name": "galaxyscore",
         "displayName": "",
         "type": "number",
@@ -29360,6 +29341,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -29377,11 +29366,91 @@
         ]
       },
       {
+        "name": "liquidations_volume_12h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "liquidations_volume_12h"
+        ]
+      },
+      {
+        "name": "liquidations_volume_15m",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "liquidations_volume_15m"
+        ]
+      },
+      {
+        "name": "liquidations_volume_1h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "liquidations_volume_1h"
+        ]
+      },
+      {
+        "name": "liquidations_volume_24h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "liquidations_volume_24h"
+        ]
+      },
+      {
+        "name": "liquidations_volume_4h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "liquidations_volume_4h"
+        ]
+      },
+      {
         "name": "logoid",
         "displayName": "",
         "type": "text",
         "variants": [
           "logoid"
+        ]
+      },
+      {
+        "name": "long_liquidations_volume_12h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "long_liquidations_volume_12h"
+        ]
+      },
+      {
+        "name": "long_liquidations_volume_15m",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "long_liquidations_volume_15m"
+        ]
+      },
+      {
+        "name": "long_liquidations_volume_1h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "long_liquidations_volume_1h"
+        ]
+      },
+      {
+        "name": "long_liquidations_volume_24h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "long_liquidations_volume_24h"
+        ]
+      },
+      {
+        "name": "long_liquidations_volume_4h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "long_liquidations_volume_4h"
         ]
       },
       {
@@ -29486,6 +29555,62 @@
         "type": "number",
         "variants": [
           "nvt"
+        ]
+      },
+      {
+        "name": "open_interest",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest"
+        ]
+      },
+      {
+        "name": "open_interest_change_percent_12h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest_change_percent_12h"
+        ]
+      },
+      {
+        "name": "open_interest_change_percent_15m",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest_change_percent_15m"
+        ]
+      },
+      {
+        "name": "open_interest_change_percent_1h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest_change_percent_1h"
+        ]
+      },
+      {
+        "name": "open_interest_change_percent_24h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest_change_percent_24h"
+        ]
+      },
+      {
+        "name": "open_interest_change_percent_4h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest_change_percent_4h"
+        ]
+      },
+      {
+        "name": "open_interest_to_volume_24h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "open_interest_to_volume_24h"
         ]
       },
       {
@@ -29604,110 +29729,6 @@
         ]
       },
       {
-        "name": "rates_cf",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_cf"
-        ]
-      },
-      {
-        "name": "rates_current",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_current"
-        ]
-      },
-      {
-        "name": "rates_dividend_recent",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_dividend_recent"
-        ]
-      },
-      {
-        "name": "rates_dividend_upcoming",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_dividend_upcoming"
-        ]
-      },
-      {
-        "name": "rates_earnings_fq",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_earnings_fq"
-        ]
-      },
-      {
-        "name": "rates_earnings_next_fq",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_earnings_next_fq"
-        ]
-      },
-      {
-        "name": "rates_fh",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_fh"
-        ]
-      },
-      {
-        "name": "rates_fq",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_fq"
-        ]
-      },
-      {
-        "name": "rates_fy",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_fy"
-        ]
-      },
-      {
-        "name": "rates_mc",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_mc"
-        ]
-      },
-      {
-        "name": "rates_pt",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_pt"
-        ]
-      },
-      {
-        "name": "rates_time_series",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_time_series"
-        ]
-      },
-      {
-        "name": "rates_ttm",
-        "displayName": "",
-        "type": "map",
-        "variants": [
-          "rates_ttm"
-        ]
-      },
-      {
         "name": "rtc",
         "displayName": "",
         "type": "price",
@@ -29721,6 +29742,46 @@
         "type": "percent",
         "variants": [
           "sentiment"
+        ]
+      },
+      {
+        "name": "short_liquidations_volume_12h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "short_liquidations_volume_12h"
+        ]
+      },
+      {
+        "name": "short_liquidations_volume_15m",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "short_liquidations_volume_15m"
+        ]
+      },
+      {
+        "name": "short_liquidations_volume_1h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "short_liquidations_volume_1h"
+        ]
+      },
+      {
+        "name": "short_liquidations_volume_24h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "short_liquidations_volume_24h"
+        ]
+      },
+      {
+        "name": "short_liquidations_volume_4h",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "short_liquidations_volume_4h"
         ]
       },
       {
@@ -30108,23 +30169,6 @@
           "volume|240",
           "volume|1W",
           "volume|1M"
-        ]
-      },
-      {
-        "name": "Value.Traded",
-        "displayName": "Volume*Price",
-        "type": "number",
-        "variants": [
-          "Value.Traded",
-          "Value.Traded|1",
-          "Value.Traded|5",
-          "Value.Traded|15",
-          "Value.Traded|30",
-          "Value.Traded|60",
-          "Value.Traded|120",
-          "Value.Traded|240",
-          "Value.Traded|1W",
-          "Value.Traded|1M"
         ]
       },
       {
@@ -35497,6 +35541,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -36088,14 +36140,6 @@
         "type": "number",
         "variants": [
           "volume"
-        ]
-      },
-      {
-        "name": "Value.Traded",
-        "displayName": "Volume*Price",
-        "type": "number",
-        "variants": [
-          "Value.Traded"
         ]
       },
       {
@@ -38835,6 +38879,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -40072,6 +40124,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -40794,6 +40854,22 @@
         ]
       },
       {
+        "name": "bond_fitch_outlook_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "bond_fitch_outlook_lt"
+        ]
+      },
+      {
+        "name": "bond_fitch_rating_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "bond_fitch_rating_lt"
+        ]
+      },
+      {
         "name": "bond_investment_grade",
         "displayName": "",
         "type": "number",
@@ -40951,6 +41027,14 @@
         "type": "text",
         "variants": [
           "call_option"
+        ]
+      },
+      {
+        "name": "cfi_code",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "cfi_code"
         ]
       },
       {
@@ -41434,6 +41518,54 @@
         ]
       },
       {
+        "name": "issuer_fitch_outlook_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_fitch_outlook_lt"
+        ]
+      },
+      {
+        "name": "issuer_fitch_outlook_st",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_fitch_outlook_st"
+        ]
+      },
+      {
+        "name": "issuer_fitch_rating_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_fitch_rating_lt"
+        ]
+      },
+      {
+        "name": "issuer_fitch_rating_st",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_fitch_rating_st"
+        ]
+      },
+      {
+        "name": "issuer_snp_rating_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_snp_rating_lt"
+        ]
+      },
+      {
+        "name": "issuer_snp_rating_st",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_snp_rating_st"
+        ]
+      },
+      {
         "name": "kind",
         "displayName": "",
         "type": "text",
@@ -41455,6 +41587,14 @@
         "type": "time",
         "variants": [
           "last-price-update-time"
+        ]
+      },
+      {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
         ]
       },
       {
@@ -42452,6 +42592,14 @@
         ]
       },
       {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
+        ]
+      },
+      {
         "name": "last_bar_update_time",
         "displayName": "",
         "type": "number",
@@ -43107,6 +43255,14 @@
         "type": "time",
         "variants": [
           "last-price-update-time"
+        ]
+      },
+      {
+        "name": "last-price-update-time-intraday",
+        "displayName": "",
+        "type": "time",
+        "variants": [
+          "last-price-update-time-intraday"
         ]
       },
       {
