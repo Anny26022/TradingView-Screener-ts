@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-05-19T08:54:31.289Z",
+  "generatedAt": "2026-05-20T08:49:21.261Z",
   "universes": {
     "stocks": [
       {
@@ -4639,11 +4639,27 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
         "name": "Perf.1M.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.1M.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
         ]
       },
       {
@@ -4671,11 +4687,27 @@
         ]
       },
       {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.3Y"
+        ]
+      },
+      {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
         ]
       },
       {
@@ -4687,11 +4719,27 @@
         ]
       },
       {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
         "name": "Perf.5Y.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5Y.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
         ]
       },
       {
@@ -4703,11 +4751,51 @@
         ]
       },
       {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
         "name": "Perf.YTD.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.YTD.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
@@ -14535,6 +14623,30 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
+        ]
+      },
+      {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
@@ -14543,11 +14655,75 @@
         ]
       },
       {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
+        ]
+      },
+      {
         "name": "Perf.5D",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5D"
+        ]
+      },
+      {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
@@ -21098,11 +21274,27 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
         "name": "Perf.1M.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.1M.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
         ]
       },
       {
@@ -21130,11 +21322,27 @@
         ]
       },
       {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.3Y"
+        ]
+      },
+      {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
         ]
       },
       {
@@ -21146,11 +21354,27 @@
         ]
       },
       {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
         "name": "Perf.5Y.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5Y.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
         ]
       },
       {
@@ -21162,11 +21386,51 @@
         ]
       },
       {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
         "name": "Perf.YTD.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.YTD.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
@@ -27210,6 +27474,30 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
+        ]
+      },
+      {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
@@ -27218,11 +27506,75 @@
         ]
       },
       {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
+        ]
+      },
+      {
         "name": "Perf.5D",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5D"
+        ]
+      },
+      {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
@@ -33842,11 +34194,27 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
         "name": "Perf.1M.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.1M.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
         ]
       },
       {
@@ -33874,11 +34242,27 @@
         ]
       },
       {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.3Y"
+        ]
+      },
+      {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
         ]
       },
       {
@@ -33890,11 +34274,27 @@
         ]
       },
       {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
         "name": "Perf.5Y.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5Y.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
         ]
       },
       {
@@ -33906,11 +34306,51 @@
         ]
       },
       {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
         "name": "Perf.YTD.MarketCap",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.YTD.MarketCap"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
@@ -38047,6 +38487,30 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
+        ]
+      },
+      {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
@@ -38055,11 +38519,75 @@
         ]
       },
       {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
+        ]
+      },
+      {
         "name": "Perf.5D",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5D"
+        ]
+      },
+      {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
@@ -39782,6 +40310,30 @@
         ]
       },
       {
+        "name": "Perf.10Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.10Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.1M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.1M_abs"
+        ]
+      },
+      {
+        "name": "Perf.3M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3M_abs"
+        ]
+      },
+      {
         "name": "Perf.3Y",
         "displayName": "",
         "type": "number",
@@ -39790,11 +40342,75 @@
         ]
       },
       {
+        "name": "Perf.3Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.3Y_abs"
+        ]
+      },
+      {
         "name": "Perf.5D",
         "displayName": "",
         "type": "number",
         "variants": [
           "Perf.5D"
+        ]
+      },
+      {
+        "name": "Perf.5D_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5D_abs"
+        ]
+      },
+      {
+        "name": "Perf.5Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.5Y_abs"
+        ]
+      },
+      {
+        "name": "Perf.6M_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.6M_abs"
+        ]
+      },
+      {
+        "name": "Perf.All_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.All_abs"
+        ]
+      },
+      {
+        "name": "Perf.W_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.W_abs"
+        ]
+      },
+      {
+        "name": "Perf.YTD_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.YTD_abs"
+        ]
+      },
+      {
+        "name": "Perf.Y_abs",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Perf.Y_abs"
         ]
       },
       {
