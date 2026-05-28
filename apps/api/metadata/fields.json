@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-05-27T08:56:20.645Z",
+  "generatedAt": "2026-05-28T09:40:08.884Z",
   "universes": {
     "stocks": [
       {
@@ -3500,6 +3500,23 @@
         ]
       },
       {
+        "name": "Candle.DarkCloudCover.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DarkCloudCover.Bearish",
+          "Candle.DarkCloudCover.Bearish|1",
+          "Candle.DarkCloudCover.Bearish|5",
+          "Candle.DarkCloudCover.Bearish|15",
+          "Candle.DarkCloudCover.Bearish|30",
+          "Candle.DarkCloudCover.Bearish|60",
+          "Candle.DarkCloudCover.Bearish|120",
+          "Candle.DarkCloudCover.Bearish|240",
+          "Candle.DarkCloudCover.Bearish|1W",
+          "Candle.DarkCloudCover.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Doji",
         "displayName": "",
         "type": "number",
@@ -3551,6 +3568,57 @@
         ]
       },
       {
+        "name": "Candle.DojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bearish",
+          "Candle.DojiStar.Bearish|1",
+          "Candle.DojiStar.Bearish|5",
+          "Candle.DojiStar.Bearish|15",
+          "Candle.DojiStar.Bearish|30",
+          "Candle.DojiStar.Bearish|60",
+          "Candle.DojiStar.Bearish|120",
+          "Candle.DojiStar.Bearish|240",
+          "Candle.DojiStar.Bearish|1W",
+          "Candle.DojiStar.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bullish",
+          "Candle.DojiStar.Bullish|1",
+          "Candle.DojiStar.Bullish|5",
+          "Candle.DojiStar.Bullish|15",
+          "Candle.DojiStar.Bullish|30",
+          "Candle.DojiStar.Bullish|60",
+          "Candle.DojiStar.Bullish|120",
+          "Candle.DojiStar.Bullish|240",
+          "Candle.DojiStar.Bullish|1W",
+          "Candle.DojiStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DownsideTasukiGap.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DownsideTasukiGap.Bearish",
+          "Candle.DownsideTasukiGap.Bearish|1",
+          "Candle.DownsideTasukiGap.Bearish|5",
+          "Candle.DownsideTasukiGap.Bearish|15",
+          "Candle.DownsideTasukiGap.Bearish|30",
+          "Candle.DownsideTasukiGap.Bearish|60",
+          "Candle.DownsideTasukiGap.Bearish|120",
+          "Candle.DownsideTasukiGap.Bearish|240",
+          "Candle.DownsideTasukiGap.Bearish|1W",
+          "Candle.DownsideTasukiGap.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Engulfing.Bearish",
         "displayName": "",
         "type": "number",
@@ -3585,6 +3653,23 @@
         ]
       },
       {
+        "name": "Candle.EveningDojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.EveningDojiStar.Bearish",
+          "Candle.EveningDojiStar.Bearish|1",
+          "Candle.EveningDojiStar.Bearish|5",
+          "Candle.EveningDojiStar.Bearish|15",
+          "Candle.EveningDojiStar.Bearish|30",
+          "Candle.EveningDojiStar.Bearish|60",
+          "Candle.EveningDojiStar.Bearish|120",
+          "Candle.EveningDojiStar.Bearish|240",
+          "Candle.EveningDojiStar.Bearish|1W",
+          "Candle.EveningDojiStar.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.EveningStar",
         "displayName": "",
         "type": "number",
@@ -3599,6 +3684,40 @@
           "Candle.EveningStar|240",
           "Candle.EveningStar|1W",
           "Candle.EveningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingThreeMethods.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingThreeMethods.Bearish",
+          "Candle.FallingThreeMethods.Bearish|1",
+          "Candle.FallingThreeMethods.Bearish|5",
+          "Candle.FallingThreeMethods.Bearish|15",
+          "Candle.FallingThreeMethods.Bearish|30",
+          "Candle.FallingThreeMethods.Bearish|60",
+          "Candle.FallingThreeMethods.Bearish|120",
+          "Candle.FallingThreeMethods.Bearish|240",
+          "Candle.FallingThreeMethods.Bearish|1W",
+          "Candle.FallingThreeMethods.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingWindow.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingWindow.Bearish",
+          "Candle.FallingWindow.Bearish|1",
+          "Candle.FallingWindow.Bearish|5",
+          "Candle.FallingWindow.Bearish|15",
+          "Candle.FallingWindow.Bearish|30",
+          "Candle.FallingWindow.Bearish|60",
+          "Candle.FallingWindow.Bearish|120",
+          "Candle.FallingWindow.Bearish|240",
+          "Candle.FallingWindow.Bearish|1W",
+          "Candle.FallingWindow.Bearish|1M"
         ]
       },
       {
@@ -3667,6 +3786,40 @@
           "Candle.Harami.Bullish|240",
           "Candle.Harami.Bullish|1W",
           "Candle.Harami.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bearish",
+          "Candle.HaramiCross.Bearish|1",
+          "Candle.HaramiCross.Bearish|5",
+          "Candle.HaramiCross.Bearish|15",
+          "Candle.HaramiCross.Bearish|30",
+          "Candle.HaramiCross.Bearish|60",
+          "Candle.HaramiCross.Bearish|120",
+          "Candle.HaramiCross.Bearish|240",
+          "Candle.HaramiCross.Bearish|1W",
+          "Candle.HaramiCross.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bullish",
+          "Candle.HaramiCross.Bullish|1",
+          "Candle.HaramiCross.Bullish|5",
+          "Candle.HaramiCross.Bullish|15",
+          "Candle.HaramiCross.Bullish|30",
+          "Candle.HaramiCross.Bullish|60",
+          "Candle.HaramiCross.Bullish|120",
+          "Candle.HaramiCross.Bullish|240",
+          "Candle.HaramiCross.Bullish|1W",
+          "Candle.HaramiCross.Bullish|1M"
         ]
       },
       {
@@ -3789,6 +3942,23 @@
         ]
       },
       {
+        "name": "Candle.MorningDojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.MorningDojiStar.Bullish",
+          "Candle.MorningDojiStar.Bullish|1",
+          "Candle.MorningDojiStar.Bullish|5",
+          "Candle.MorningDojiStar.Bullish|15",
+          "Candle.MorningDojiStar.Bullish|30",
+          "Candle.MorningDojiStar.Bullish|60",
+          "Candle.MorningDojiStar.Bullish|120",
+          "Candle.MorningDojiStar.Bullish|240",
+          "Candle.MorningDojiStar.Bullish|1W",
+          "Candle.MorningDojiStar.Bullish|1M"
+        ]
+      },
+      {
         "name": "Candle.MorningStar",
         "displayName": "",
         "type": "number",
@@ -3803,6 +3973,74 @@
           "Candle.MorningStar|240",
           "Candle.MorningStar|1W",
           "Candle.MorningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.OnNeck.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.OnNeck.Bearish",
+          "Candle.OnNeck.Bearish|1",
+          "Candle.OnNeck.Bearish|5",
+          "Candle.OnNeck.Bearish|15",
+          "Candle.OnNeck.Bearish|30",
+          "Candle.OnNeck.Bearish|60",
+          "Candle.OnNeck.Bearish|120",
+          "Candle.OnNeck.Bearish|240",
+          "Candle.OnNeck.Bearish|1W",
+          "Candle.OnNeck.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.Piercing.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.Piercing.Bullish",
+          "Candle.Piercing.Bullish|1",
+          "Candle.Piercing.Bullish|5",
+          "Candle.Piercing.Bullish|15",
+          "Candle.Piercing.Bullish|30",
+          "Candle.Piercing.Bullish|60",
+          "Candle.Piercing.Bullish|120",
+          "Candle.Piercing.Bullish|240",
+          "Candle.Piercing.Bullish|1W",
+          "Candle.Piercing.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingThreeMethods.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingThreeMethods.Bullish",
+          "Candle.RisingThreeMethods.Bullish|1",
+          "Candle.RisingThreeMethods.Bullish|5",
+          "Candle.RisingThreeMethods.Bullish|15",
+          "Candle.RisingThreeMethods.Bullish|30",
+          "Candle.RisingThreeMethods.Bullish|60",
+          "Candle.RisingThreeMethods.Bullish|120",
+          "Candle.RisingThreeMethods.Bullish|240",
+          "Candle.RisingThreeMethods.Bullish|1W",
+          "Candle.RisingThreeMethods.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingWindow.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingWindow.Bullish",
+          "Candle.RisingWindow.Bullish|1",
+          "Candle.RisingWindow.Bullish|5",
+          "Candle.RisingWindow.Bullish|15",
+          "Candle.RisingWindow.Bullish|30",
+          "Candle.RisingWindow.Bullish|60",
+          "Candle.RisingWindow.Bullish|120",
+          "Candle.RisingWindow.Bullish|240",
+          "Candle.RisingWindow.Bullish|1W",
+          "Candle.RisingWindow.Bullish|1M"
         ]
       },
       {
@@ -3888,6 +4126,57 @@
           "Candle.TriStar.Bullish|240",
           "Candle.TriStar.Bullish|1W",
           "Candle.TriStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerBottom.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerBottom.Bullish",
+          "Candle.TweezerBottom.Bullish|1",
+          "Candle.TweezerBottom.Bullish|5",
+          "Candle.TweezerBottom.Bullish|15",
+          "Candle.TweezerBottom.Bullish|30",
+          "Candle.TweezerBottom.Bullish|60",
+          "Candle.TweezerBottom.Bullish|120",
+          "Candle.TweezerBottom.Bullish|240",
+          "Candle.TweezerBottom.Bullish|1W",
+          "Candle.TweezerBottom.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerTop.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerTop.Bearish",
+          "Candle.TweezerTop.Bearish|1",
+          "Candle.TweezerTop.Bearish|5",
+          "Candle.TweezerTop.Bearish|15",
+          "Candle.TweezerTop.Bearish|30",
+          "Candle.TweezerTop.Bearish|60",
+          "Candle.TweezerTop.Bearish|120",
+          "Candle.TweezerTop.Bearish|240",
+          "Candle.TweezerTop.Bearish|1W",
+          "Candle.TweezerTop.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.UpsideTasukiGap.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.UpsideTasukiGap.Bullish",
+          "Candle.UpsideTasukiGap.Bullish|1",
+          "Candle.UpsideTasukiGap.Bullish|5",
+          "Candle.UpsideTasukiGap.Bullish|15",
+          "Candle.UpsideTasukiGap.Bullish|30",
+          "Candle.UpsideTasukiGap.Bullish|60",
+          "Candle.UpsideTasukiGap.Bullish|120",
+          "Candle.UpsideTasukiGap.Bullish|240",
+          "Candle.UpsideTasukiGap.Bullish|1W",
+          "Candle.UpsideTasukiGap.Bullish|1M"
         ]
       },
       {
@@ -6258,6 +6547,86 @@
         "type": "fundamental_price",
         "variants": [
           "buyback_yield"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -13484,6 +13853,23 @@
         ]
       },
       {
+        "name": "Candle.DarkCloudCover.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DarkCloudCover.Bearish",
+          "Candle.DarkCloudCover.Bearish|1",
+          "Candle.DarkCloudCover.Bearish|5",
+          "Candle.DarkCloudCover.Bearish|15",
+          "Candle.DarkCloudCover.Bearish|30",
+          "Candle.DarkCloudCover.Bearish|60",
+          "Candle.DarkCloudCover.Bearish|120",
+          "Candle.DarkCloudCover.Bearish|240",
+          "Candle.DarkCloudCover.Bearish|1W",
+          "Candle.DarkCloudCover.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Doji",
         "displayName": "",
         "type": "number",
@@ -13535,6 +13921,57 @@
         ]
       },
       {
+        "name": "Candle.DojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bearish",
+          "Candle.DojiStar.Bearish|1",
+          "Candle.DojiStar.Bearish|5",
+          "Candle.DojiStar.Bearish|15",
+          "Candle.DojiStar.Bearish|30",
+          "Candle.DojiStar.Bearish|60",
+          "Candle.DojiStar.Bearish|120",
+          "Candle.DojiStar.Bearish|240",
+          "Candle.DojiStar.Bearish|1W",
+          "Candle.DojiStar.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bullish",
+          "Candle.DojiStar.Bullish|1",
+          "Candle.DojiStar.Bullish|5",
+          "Candle.DojiStar.Bullish|15",
+          "Candle.DojiStar.Bullish|30",
+          "Candle.DojiStar.Bullish|60",
+          "Candle.DojiStar.Bullish|120",
+          "Candle.DojiStar.Bullish|240",
+          "Candle.DojiStar.Bullish|1W",
+          "Candle.DojiStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DownsideTasukiGap.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DownsideTasukiGap.Bearish",
+          "Candle.DownsideTasukiGap.Bearish|1",
+          "Candle.DownsideTasukiGap.Bearish|5",
+          "Candle.DownsideTasukiGap.Bearish|15",
+          "Candle.DownsideTasukiGap.Bearish|30",
+          "Candle.DownsideTasukiGap.Bearish|60",
+          "Candle.DownsideTasukiGap.Bearish|120",
+          "Candle.DownsideTasukiGap.Bearish|240",
+          "Candle.DownsideTasukiGap.Bearish|1W",
+          "Candle.DownsideTasukiGap.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Engulfing.Bearish",
         "displayName": "",
         "type": "number",
@@ -13569,6 +14006,23 @@
         ]
       },
       {
+        "name": "Candle.EveningDojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.EveningDojiStar.Bearish",
+          "Candle.EveningDojiStar.Bearish|1",
+          "Candle.EveningDojiStar.Bearish|5",
+          "Candle.EveningDojiStar.Bearish|15",
+          "Candle.EveningDojiStar.Bearish|30",
+          "Candle.EveningDojiStar.Bearish|60",
+          "Candle.EveningDojiStar.Bearish|120",
+          "Candle.EveningDojiStar.Bearish|240",
+          "Candle.EveningDojiStar.Bearish|1W",
+          "Candle.EveningDojiStar.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.EveningStar",
         "displayName": "",
         "type": "number",
@@ -13583,6 +14037,40 @@
           "Candle.EveningStar|240",
           "Candle.EveningStar|1W",
           "Candle.EveningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingThreeMethods.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingThreeMethods.Bearish",
+          "Candle.FallingThreeMethods.Bearish|1",
+          "Candle.FallingThreeMethods.Bearish|5",
+          "Candle.FallingThreeMethods.Bearish|15",
+          "Candle.FallingThreeMethods.Bearish|30",
+          "Candle.FallingThreeMethods.Bearish|60",
+          "Candle.FallingThreeMethods.Bearish|120",
+          "Candle.FallingThreeMethods.Bearish|240",
+          "Candle.FallingThreeMethods.Bearish|1W",
+          "Candle.FallingThreeMethods.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingWindow.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingWindow.Bearish",
+          "Candle.FallingWindow.Bearish|1",
+          "Candle.FallingWindow.Bearish|5",
+          "Candle.FallingWindow.Bearish|15",
+          "Candle.FallingWindow.Bearish|30",
+          "Candle.FallingWindow.Bearish|60",
+          "Candle.FallingWindow.Bearish|120",
+          "Candle.FallingWindow.Bearish|240",
+          "Candle.FallingWindow.Bearish|1W",
+          "Candle.FallingWindow.Bearish|1M"
         ]
       },
       {
@@ -13651,6 +14139,40 @@
           "Candle.Harami.Bullish|240",
           "Candle.Harami.Bullish|1W",
           "Candle.Harami.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bearish",
+          "Candle.HaramiCross.Bearish|1",
+          "Candle.HaramiCross.Bearish|5",
+          "Candle.HaramiCross.Bearish|15",
+          "Candle.HaramiCross.Bearish|30",
+          "Candle.HaramiCross.Bearish|60",
+          "Candle.HaramiCross.Bearish|120",
+          "Candle.HaramiCross.Bearish|240",
+          "Candle.HaramiCross.Bearish|1W",
+          "Candle.HaramiCross.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bullish",
+          "Candle.HaramiCross.Bullish|1",
+          "Candle.HaramiCross.Bullish|5",
+          "Candle.HaramiCross.Bullish|15",
+          "Candle.HaramiCross.Bullish|30",
+          "Candle.HaramiCross.Bullish|60",
+          "Candle.HaramiCross.Bullish|120",
+          "Candle.HaramiCross.Bullish|240",
+          "Candle.HaramiCross.Bullish|1W",
+          "Candle.HaramiCross.Bullish|1M"
         ]
       },
       {
@@ -13773,6 +14295,23 @@
         ]
       },
       {
+        "name": "Candle.MorningDojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.MorningDojiStar.Bullish",
+          "Candle.MorningDojiStar.Bullish|1",
+          "Candle.MorningDojiStar.Bullish|5",
+          "Candle.MorningDojiStar.Bullish|15",
+          "Candle.MorningDojiStar.Bullish|30",
+          "Candle.MorningDojiStar.Bullish|60",
+          "Candle.MorningDojiStar.Bullish|120",
+          "Candle.MorningDojiStar.Bullish|240",
+          "Candle.MorningDojiStar.Bullish|1W",
+          "Candle.MorningDojiStar.Bullish|1M"
+        ]
+      },
+      {
         "name": "Candle.MorningStar",
         "displayName": "",
         "type": "number",
@@ -13787,6 +14326,74 @@
           "Candle.MorningStar|240",
           "Candle.MorningStar|1W",
           "Candle.MorningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.OnNeck.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.OnNeck.Bearish",
+          "Candle.OnNeck.Bearish|1",
+          "Candle.OnNeck.Bearish|5",
+          "Candle.OnNeck.Bearish|15",
+          "Candle.OnNeck.Bearish|30",
+          "Candle.OnNeck.Bearish|60",
+          "Candle.OnNeck.Bearish|120",
+          "Candle.OnNeck.Bearish|240",
+          "Candle.OnNeck.Bearish|1W",
+          "Candle.OnNeck.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.Piercing.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.Piercing.Bullish",
+          "Candle.Piercing.Bullish|1",
+          "Candle.Piercing.Bullish|5",
+          "Candle.Piercing.Bullish|15",
+          "Candle.Piercing.Bullish|30",
+          "Candle.Piercing.Bullish|60",
+          "Candle.Piercing.Bullish|120",
+          "Candle.Piercing.Bullish|240",
+          "Candle.Piercing.Bullish|1W",
+          "Candle.Piercing.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingThreeMethods.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingThreeMethods.Bullish",
+          "Candle.RisingThreeMethods.Bullish|1",
+          "Candle.RisingThreeMethods.Bullish|5",
+          "Candle.RisingThreeMethods.Bullish|15",
+          "Candle.RisingThreeMethods.Bullish|30",
+          "Candle.RisingThreeMethods.Bullish|60",
+          "Candle.RisingThreeMethods.Bullish|120",
+          "Candle.RisingThreeMethods.Bullish|240",
+          "Candle.RisingThreeMethods.Bullish|1W",
+          "Candle.RisingThreeMethods.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingWindow.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingWindow.Bullish",
+          "Candle.RisingWindow.Bullish|1",
+          "Candle.RisingWindow.Bullish|5",
+          "Candle.RisingWindow.Bullish|15",
+          "Candle.RisingWindow.Bullish|30",
+          "Candle.RisingWindow.Bullish|60",
+          "Candle.RisingWindow.Bullish|120",
+          "Candle.RisingWindow.Bullish|240",
+          "Candle.RisingWindow.Bullish|1W",
+          "Candle.RisingWindow.Bullish|1M"
         ]
       },
       {
@@ -13872,6 +14479,57 @@
           "Candle.TriStar.Bullish|240",
           "Candle.TriStar.Bullish|1W",
           "Candle.TriStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerBottom.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerBottom.Bullish",
+          "Candle.TweezerBottom.Bullish|1",
+          "Candle.TweezerBottom.Bullish|5",
+          "Candle.TweezerBottom.Bullish|15",
+          "Candle.TweezerBottom.Bullish|30",
+          "Candle.TweezerBottom.Bullish|60",
+          "Candle.TweezerBottom.Bullish|120",
+          "Candle.TweezerBottom.Bullish|240",
+          "Candle.TweezerBottom.Bullish|1W",
+          "Candle.TweezerBottom.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerTop.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerTop.Bearish",
+          "Candle.TweezerTop.Bearish|1",
+          "Candle.TweezerTop.Bearish|5",
+          "Candle.TweezerTop.Bearish|15",
+          "Candle.TweezerTop.Bearish|30",
+          "Candle.TweezerTop.Bearish|60",
+          "Candle.TweezerTop.Bearish|120",
+          "Candle.TweezerTop.Bearish|240",
+          "Candle.TweezerTop.Bearish|1W",
+          "Candle.TweezerTop.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.UpsideTasukiGap.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.UpsideTasukiGap.Bullish",
+          "Candle.UpsideTasukiGap.Bullish|1",
+          "Candle.UpsideTasukiGap.Bullish|5",
+          "Candle.UpsideTasukiGap.Bullish|15",
+          "Candle.UpsideTasukiGap.Bullish|30",
+          "Candle.UpsideTasukiGap.Bullish|60",
+          "Candle.UpsideTasukiGap.Bullish|120",
+          "Candle.UpsideTasukiGap.Bullish|240",
+          "Candle.UpsideTasukiGap.Bullish|1W",
+          "Candle.UpsideTasukiGap.Bullish|1M"
         ]
       },
       {
@@ -16122,6 +16780,86 @@
         "type": "percent",
         "variants": [
           "break_even_addresses_percentage"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -20135,6 +20873,23 @@
         ]
       },
       {
+        "name": "Candle.DarkCloudCover.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DarkCloudCover.Bearish",
+          "Candle.DarkCloudCover.Bearish|1",
+          "Candle.DarkCloudCover.Bearish|5",
+          "Candle.DarkCloudCover.Bearish|15",
+          "Candle.DarkCloudCover.Bearish|30",
+          "Candle.DarkCloudCover.Bearish|60",
+          "Candle.DarkCloudCover.Bearish|120",
+          "Candle.DarkCloudCover.Bearish|240",
+          "Candle.DarkCloudCover.Bearish|1W",
+          "Candle.DarkCloudCover.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Doji",
         "displayName": "",
         "type": "number",
@@ -20186,6 +20941,57 @@
         ]
       },
       {
+        "name": "Candle.DojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bearish",
+          "Candle.DojiStar.Bearish|1",
+          "Candle.DojiStar.Bearish|5",
+          "Candle.DojiStar.Bearish|15",
+          "Candle.DojiStar.Bearish|30",
+          "Candle.DojiStar.Bearish|60",
+          "Candle.DojiStar.Bearish|120",
+          "Candle.DojiStar.Bearish|240",
+          "Candle.DojiStar.Bearish|1W",
+          "Candle.DojiStar.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bullish",
+          "Candle.DojiStar.Bullish|1",
+          "Candle.DojiStar.Bullish|5",
+          "Candle.DojiStar.Bullish|15",
+          "Candle.DojiStar.Bullish|30",
+          "Candle.DojiStar.Bullish|60",
+          "Candle.DojiStar.Bullish|120",
+          "Candle.DojiStar.Bullish|240",
+          "Candle.DojiStar.Bullish|1W",
+          "Candle.DojiStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DownsideTasukiGap.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DownsideTasukiGap.Bearish",
+          "Candle.DownsideTasukiGap.Bearish|1",
+          "Candle.DownsideTasukiGap.Bearish|5",
+          "Candle.DownsideTasukiGap.Bearish|15",
+          "Candle.DownsideTasukiGap.Bearish|30",
+          "Candle.DownsideTasukiGap.Bearish|60",
+          "Candle.DownsideTasukiGap.Bearish|120",
+          "Candle.DownsideTasukiGap.Bearish|240",
+          "Candle.DownsideTasukiGap.Bearish|1W",
+          "Candle.DownsideTasukiGap.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Engulfing.Bearish",
         "displayName": "",
         "type": "number",
@@ -20220,6 +21026,23 @@
         ]
       },
       {
+        "name": "Candle.EveningDojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.EveningDojiStar.Bearish",
+          "Candle.EveningDojiStar.Bearish|1",
+          "Candle.EveningDojiStar.Bearish|5",
+          "Candle.EveningDojiStar.Bearish|15",
+          "Candle.EveningDojiStar.Bearish|30",
+          "Candle.EveningDojiStar.Bearish|60",
+          "Candle.EveningDojiStar.Bearish|120",
+          "Candle.EveningDojiStar.Bearish|240",
+          "Candle.EveningDojiStar.Bearish|1W",
+          "Candle.EveningDojiStar.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.EveningStar",
         "displayName": "",
         "type": "number",
@@ -20234,6 +21057,40 @@
           "Candle.EveningStar|240",
           "Candle.EveningStar|1W",
           "Candle.EveningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingThreeMethods.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingThreeMethods.Bearish",
+          "Candle.FallingThreeMethods.Bearish|1",
+          "Candle.FallingThreeMethods.Bearish|5",
+          "Candle.FallingThreeMethods.Bearish|15",
+          "Candle.FallingThreeMethods.Bearish|30",
+          "Candle.FallingThreeMethods.Bearish|60",
+          "Candle.FallingThreeMethods.Bearish|120",
+          "Candle.FallingThreeMethods.Bearish|240",
+          "Candle.FallingThreeMethods.Bearish|1W",
+          "Candle.FallingThreeMethods.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingWindow.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingWindow.Bearish",
+          "Candle.FallingWindow.Bearish|1",
+          "Candle.FallingWindow.Bearish|5",
+          "Candle.FallingWindow.Bearish|15",
+          "Candle.FallingWindow.Bearish|30",
+          "Candle.FallingWindow.Bearish|60",
+          "Candle.FallingWindow.Bearish|120",
+          "Candle.FallingWindow.Bearish|240",
+          "Candle.FallingWindow.Bearish|1W",
+          "Candle.FallingWindow.Bearish|1M"
         ]
       },
       {
@@ -20302,6 +21159,40 @@
           "Candle.Harami.Bullish|240",
           "Candle.Harami.Bullish|1W",
           "Candle.Harami.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bearish",
+          "Candle.HaramiCross.Bearish|1",
+          "Candle.HaramiCross.Bearish|5",
+          "Candle.HaramiCross.Bearish|15",
+          "Candle.HaramiCross.Bearish|30",
+          "Candle.HaramiCross.Bearish|60",
+          "Candle.HaramiCross.Bearish|120",
+          "Candle.HaramiCross.Bearish|240",
+          "Candle.HaramiCross.Bearish|1W",
+          "Candle.HaramiCross.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bullish",
+          "Candle.HaramiCross.Bullish|1",
+          "Candle.HaramiCross.Bullish|5",
+          "Candle.HaramiCross.Bullish|15",
+          "Candle.HaramiCross.Bullish|30",
+          "Candle.HaramiCross.Bullish|60",
+          "Candle.HaramiCross.Bullish|120",
+          "Candle.HaramiCross.Bullish|240",
+          "Candle.HaramiCross.Bullish|1W",
+          "Candle.HaramiCross.Bullish|1M"
         ]
       },
       {
@@ -20424,6 +21315,23 @@
         ]
       },
       {
+        "name": "Candle.MorningDojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.MorningDojiStar.Bullish",
+          "Candle.MorningDojiStar.Bullish|1",
+          "Candle.MorningDojiStar.Bullish|5",
+          "Candle.MorningDojiStar.Bullish|15",
+          "Candle.MorningDojiStar.Bullish|30",
+          "Candle.MorningDojiStar.Bullish|60",
+          "Candle.MorningDojiStar.Bullish|120",
+          "Candle.MorningDojiStar.Bullish|240",
+          "Candle.MorningDojiStar.Bullish|1W",
+          "Candle.MorningDojiStar.Bullish|1M"
+        ]
+      },
+      {
         "name": "Candle.MorningStar",
         "displayName": "",
         "type": "number",
@@ -20438,6 +21346,74 @@
           "Candle.MorningStar|240",
           "Candle.MorningStar|1W",
           "Candle.MorningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.OnNeck.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.OnNeck.Bearish",
+          "Candle.OnNeck.Bearish|1",
+          "Candle.OnNeck.Bearish|5",
+          "Candle.OnNeck.Bearish|15",
+          "Candle.OnNeck.Bearish|30",
+          "Candle.OnNeck.Bearish|60",
+          "Candle.OnNeck.Bearish|120",
+          "Candle.OnNeck.Bearish|240",
+          "Candle.OnNeck.Bearish|1W",
+          "Candle.OnNeck.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.Piercing.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.Piercing.Bullish",
+          "Candle.Piercing.Bullish|1",
+          "Candle.Piercing.Bullish|5",
+          "Candle.Piercing.Bullish|15",
+          "Candle.Piercing.Bullish|30",
+          "Candle.Piercing.Bullish|60",
+          "Candle.Piercing.Bullish|120",
+          "Candle.Piercing.Bullish|240",
+          "Candle.Piercing.Bullish|1W",
+          "Candle.Piercing.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingThreeMethods.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingThreeMethods.Bullish",
+          "Candle.RisingThreeMethods.Bullish|1",
+          "Candle.RisingThreeMethods.Bullish|5",
+          "Candle.RisingThreeMethods.Bullish|15",
+          "Candle.RisingThreeMethods.Bullish|30",
+          "Candle.RisingThreeMethods.Bullish|60",
+          "Candle.RisingThreeMethods.Bullish|120",
+          "Candle.RisingThreeMethods.Bullish|240",
+          "Candle.RisingThreeMethods.Bullish|1W",
+          "Candle.RisingThreeMethods.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingWindow.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingWindow.Bullish",
+          "Candle.RisingWindow.Bullish|1",
+          "Candle.RisingWindow.Bullish|5",
+          "Candle.RisingWindow.Bullish|15",
+          "Candle.RisingWindow.Bullish|30",
+          "Candle.RisingWindow.Bullish|60",
+          "Candle.RisingWindow.Bullish|120",
+          "Candle.RisingWindow.Bullish|240",
+          "Candle.RisingWindow.Bullish|1W",
+          "Candle.RisingWindow.Bullish|1M"
         ]
       },
       {
@@ -20523,6 +21499,57 @@
           "Candle.TriStar.Bullish|240",
           "Candle.TriStar.Bullish|1W",
           "Candle.TriStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerBottom.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerBottom.Bullish",
+          "Candle.TweezerBottom.Bullish|1",
+          "Candle.TweezerBottom.Bullish|5",
+          "Candle.TweezerBottom.Bullish|15",
+          "Candle.TweezerBottom.Bullish|30",
+          "Candle.TweezerBottom.Bullish|60",
+          "Candle.TweezerBottom.Bullish|120",
+          "Candle.TweezerBottom.Bullish|240",
+          "Candle.TweezerBottom.Bullish|1W",
+          "Candle.TweezerBottom.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerTop.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerTop.Bearish",
+          "Candle.TweezerTop.Bearish|1",
+          "Candle.TweezerTop.Bearish|5",
+          "Candle.TweezerTop.Bearish|15",
+          "Candle.TweezerTop.Bearish|30",
+          "Candle.TweezerTop.Bearish|60",
+          "Candle.TweezerTop.Bearish|120",
+          "Candle.TweezerTop.Bearish|240",
+          "Candle.TweezerTop.Bearish|1W",
+          "Candle.TweezerTop.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.UpsideTasukiGap.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.UpsideTasukiGap.Bullish",
+          "Candle.UpsideTasukiGap.Bullish|1",
+          "Candle.UpsideTasukiGap.Bullish|5",
+          "Candle.UpsideTasukiGap.Bullish|15",
+          "Candle.UpsideTasukiGap.Bullish|30",
+          "Candle.UpsideTasukiGap.Bullish|60",
+          "Candle.UpsideTasukiGap.Bullish|120",
+          "Candle.UpsideTasukiGap.Bullish|240",
+          "Candle.UpsideTasukiGap.Bullish|1W",
+          "Candle.UpsideTasukiGap.Bullish|1M"
         ]
       },
       {
@@ -22725,6 +23752,86 @@
         "type": "percent",
         "variants": [
           "bid_ask_spread_pct"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -26335,6 +27442,23 @@
         ]
       },
       {
+        "name": "Candle.DarkCloudCover.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DarkCloudCover.Bearish",
+          "Candle.DarkCloudCover.Bearish|1",
+          "Candle.DarkCloudCover.Bearish|5",
+          "Candle.DarkCloudCover.Bearish|15",
+          "Candle.DarkCloudCover.Bearish|30",
+          "Candle.DarkCloudCover.Bearish|60",
+          "Candle.DarkCloudCover.Bearish|120",
+          "Candle.DarkCloudCover.Bearish|240",
+          "Candle.DarkCloudCover.Bearish|1W",
+          "Candle.DarkCloudCover.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Doji",
         "displayName": "",
         "type": "number",
@@ -26386,6 +27510,57 @@
         ]
       },
       {
+        "name": "Candle.DojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bearish",
+          "Candle.DojiStar.Bearish|1",
+          "Candle.DojiStar.Bearish|5",
+          "Candle.DojiStar.Bearish|15",
+          "Candle.DojiStar.Bearish|30",
+          "Candle.DojiStar.Bearish|60",
+          "Candle.DojiStar.Bearish|120",
+          "Candle.DojiStar.Bearish|240",
+          "Candle.DojiStar.Bearish|1W",
+          "Candle.DojiStar.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bullish",
+          "Candle.DojiStar.Bullish|1",
+          "Candle.DojiStar.Bullish|5",
+          "Candle.DojiStar.Bullish|15",
+          "Candle.DojiStar.Bullish|30",
+          "Candle.DojiStar.Bullish|60",
+          "Candle.DojiStar.Bullish|120",
+          "Candle.DojiStar.Bullish|240",
+          "Candle.DojiStar.Bullish|1W",
+          "Candle.DojiStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DownsideTasukiGap.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DownsideTasukiGap.Bearish",
+          "Candle.DownsideTasukiGap.Bearish|1",
+          "Candle.DownsideTasukiGap.Bearish|5",
+          "Candle.DownsideTasukiGap.Bearish|15",
+          "Candle.DownsideTasukiGap.Bearish|30",
+          "Candle.DownsideTasukiGap.Bearish|60",
+          "Candle.DownsideTasukiGap.Bearish|120",
+          "Candle.DownsideTasukiGap.Bearish|240",
+          "Candle.DownsideTasukiGap.Bearish|1W",
+          "Candle.DownsideTasukiGap.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Engulfing.Bearish",
         "displayName": "",
         "type": "number",
@@ -26420,6 +27595,23 @@
         ]
       },
       {
+        "name": "Candle.EveningDojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.EveningDojiStar.Bearish",
+          "Candle.EveningDojiStar.Bearish|1",
+          "Candle.EveningDojiStar.Bearish|5",
+          "Candle.EveningDojiStar.Bearish|15",
+          "Candle.EveningDojiStar.Bearish|30",
+          "Candle.EveningDojiStar.Bearish|60",
+          "Candle.EveningDojiStar.Bearish|120",
+          "Candle.EveningDojiStar.Bearish|240",
+          "Candle.EveningDojiStar.Bearish|1W",
+          "Candle.EveningDojiStar.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.EveningStar",
         "displayName": "",
         "type": "number",
@@ -26434,6 +27626,40 @@
           "Candle.EveningStar|240",
           "Candle.EveningStar|1W",
           "Candle.EveningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingThreeMethods.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingThreeMethods.Bearish",
+          "Candle.FallingThreeMethods.Bearish|1",
+          "Candle.FallingThreeMethods.Bearish|5",
+          "Candle.FallingThreeMethods.Bearish|15",
+          "Candle.FallingThreeMethods.Bearish|30",
+          "Candle.FallingThreeMethods.Bearish|60",
+          "Candle.FallingThreeMethods.Bearish|120",
+          "Candle.FallingThreeMethods.Bearish|240",
+          "Candle.FallingThreeMethods.Bearish|1W",
+          "Candle.FallingThreeMethods.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingWindow.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingWindow.Bearish",
+          "Candle.FallingWindow.Bearish|1",
+          "Candle.FallingWindow.Bearish|5",
+          "Candle.FallingWindow.Bearish|15",
+          "Candle.FallingWindow.Bearish|30",
+          "Candle.FallingWindow.Bearish|60",
+          "Candle.FallingWindow.Bearish|120",
+          "Candle.FallingWindow.Bearish|240",
+          "Candle.FallingWindow.Bearish|1W",
+          "Candle.FallingWindow.Bearish|1M"
         ]
       },
       {
@@ -26502,6 +27728,40 @@
           "Candle.Harami.Bullish|240",
           "Candle.Harami.Bullish|1W",
           "Candle.Harami.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bearish",
+          "Candle.HaramiCross.Bearish|1",
+          "Candle.HaramiCross.Bearish|5",
+          "Candle.HaramiCross.Bearish|15",
+          "Candle.HaramiCross.Bearish|30",
+          "Candle.HaramiCross.Bearish|60",
+          "Candle.HaramiCross.Bearish|120",
+          "Candle.HaramiCross.Bearish|240",
+          "Candle.HaramiCross.Bearish|1W",
+          "Candle.HaramiCross.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bullish",
+          "Candle.HaramiCross.Bullish|1",
+          "Candle.HaramiCross.Bullish|5",
+          "Candle.HaramiCross.Bullish|15",
+          "Candle.HaramiCross.Bullish|30",
+          "Candle.HaramiCross.Bullish|60",
+          "Candle.HaramiCross.Bullish|120",
+          "Candle.HaramiCross.Bullish|240",
+          "Candle.HaramiCross.Bullish|1W",
+          "Candle.HaramiCross.Bullish|1M"
         ]
       },
       {
@@ -26624,6 +27884,23 @@
         ]
       },
       {
+        "name": "Candle.MorningDojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.MorningDojiStar.Bullish",
+          "Candle.MorningDojiStar.Bullish|1",
+          "Candle.MorningDojiStar.Bullish|5",
+          "Candle.MorningDojiStar.Bullish|15",
+          "Candle.MorningDojiStar.Bullish|30",
+          "Candle.MorningDojiStar.Bullish|60",
+          "Candle.MorningDojiStar.Bullish|120",
+          "Candle.MorningDojiStar.Bullish|240",
+          "Candle.MorningDojiStar.Bullish|1W",
+          "Candle.MorningDojiStar.Bullish|1M"
+        ]
+      },
+      {
         "name": "Candle.MorningStar",
         "displayName": "",
         "type": "number",
@@ -26638,6 +27915,74 @@
           "Candle.MorningStar|240",
           "Candle.MorningStar|1W",
           "Candle.MorningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.OnNeck.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.OnNeck.Bearish",
+          "Candle.OnNeck.Bearish|1",
+          "Candle.OnNeck.Bearish|5",
+          "Candle.OnNeck.Bearish|15",
+          "Candle.OnNeck.Bearish|30",
+          "Candle.OnNeck.Bearish|60",
+          "Candle.OnNeck.Bearish|120",
+          "Candle.OnNeck.Bearish|240",
+          "Candle.OnNeck.Bearish|1W",
+          "Candle.OnNeck.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.Piercing.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.Piercing.Bullish",
+          "Candle.Piercing.Bullish|1",
+          "Candle.Piercing.Bullish|5",
+          "Candle.Piercing.Bullish|15",
+          "Candle.Piercing.Bullish|30",
+          "Candle.Piercing.Bullish|60",
+          "Candle.Piercing.Bullish|120",
+          "Candle.Piercing.Bullish|240",
+          "Candle.Piercing.Bullish|1W",
+          "Candle.Piercing.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingThreeMethods.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingThreeMethods.Bullish",
+          "Candle.RisingThreeMethods.Bullish|1",
+          "Candle.RisingThreeMethods.Bullish|5",
+          "Candle.RisingThreeMethods.Bullish|15",
+          "Candle.RisingThreeMethods.Bullish|30",
+          "Candle.RisingThreeMethods.Bullish|60",
+          "Candle.RisingThreeMethods.Bullish|120",
+          "Candle.RisingThreeMethods.Bullish|240",
+          "Candle.RisingThreeMethods.Bullish|1W",
+          "Candle.RisingThreeMethods.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingWindow.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingWindow.Bullish",
+          "Candle.RisingWindow.Bullish|1",
+          "Candle.RisingWindow.Bullish|5",
+          "Candle.RisingWindow.Bullish|15",
+          "Candle.RisingWindow.Bullish|30",
+          "Candle.RisingWindow.Bullish|60",
+          "Candle.RisingWindow.Bullish|120",
+          "Candle.RisingWindow.Bullish|240",
+          "Candle.RisingWindow.Bullish|1W",
+          "Candle.RisingWindow.Bullish|1M"
         ]
       },
       {
@@ -26723,6 +28068,57 @@
           "Candle.TriStar.Bullish|240",
           "Candle.TriStar.Bullish|1W",
           "Candle.TriStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerBottom.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerBottom.Bullish",
+          "Candle.TweezerBottom.Bullish|1",
+          "Candle.TweezerBottom.Bullish|5",
+          "Candle.TweezerBottom.Bullish|15",
+          "Candle.TweezerBottom.Bullish|30",
+          "Candle.TweezerBottom.Bullish|60",
+          "Candle.TweezerBottom.Bullish|120",
+          "Candle.TweezerBottom.Bullish|240",
+          "Candle.TweezerBottom.Bullish|1W",
+          "Candle.TweezerBottom.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerTop.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerTop.Bearish",
+          "Candle.TweezerTop.Bearish|1",
+          "Candle.TweezerTop.Bearish|5",
+          "Candle.TweezerTop.Bearish|15",
+          "Candle.TweezerTop.Bearish|30",
+          "Candle.TweezerTop.Bearish|60",
+          "Candle.TweezerTop.Bearish|120",
+          "Candle.TweezerTop.Bearish|240",
+          "Candle.TweezerTop.Bearish|1W",
+          "Candle.TweezerTop.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.UpsideTasukiGap.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.UpsideTasukiGap.Bullish",
+          "Candle.UpsideTasukiGap.Bullish|1",
+          "Candle.UpsideTasukiGap.Bullish|5",
+          "Candle.UpsideTasukiGap.Bullish|15",
+          "Candle.UpsideTasukiGap.Bullish|30",
+          "Candle.UpsideTasukiGap.Bullish|60",
+          "Candle.UpsideTasukiGap.Bullish|120",
+          "Candle.UpsideTasukiGap.Bullish|240",
+          "Candle.UpsideTasukiGap.Bullish|1W",
+          "Candle.UpsideTasukiGap.Bullish|1M"
         ]
       },
       {
@@ -28909,6 +30305,86 @@
         "type": "percent",
         "variants": [
           "break_even_addresses_percentage"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -33055,6 +34531,23 @@
         ]
       },
       {
+        "name": "Candle.DarkCloudCover.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DarkCloudCover.Bearish",
+          "Candle.DarkCloudCover.Bearish|1",
+          "Candle.DarkCloudCover.Bearish|5",
+          "Candle.DarkCloudCover.Bearish|15",
+          "Candle.DarkCloudCover.Bearish|30",
+          "Candle.DarkCloudCover.Bearish|60",
+          "Candle.DarkCloudCover.Bearish|120",
+          "Candle.DarkCloudCover.Bearish|240",
+          "Candle.DarkCloudCover.Bearish|1W",
+          "Candle.DarkCloudCover.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Doji",
         "displayName": "",
         "type": "number",
@@ -33106,6 +34599,57 @@
         ]
       },
       {
+        "name": "Candle.DojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bearish",
+          "Candle.DojiStar.Bearish|1",
+          "Candle.DojiStar.Bearish|5",
+          "Candle.DojiStar.Bearish|15",
+          "Candle.DojiStar.Bearish|30",
+          "Candle.DojiStar.Bearish|60",
+          "Candle.DojiStar.Bearish|120",
+          "Candle.DojiStar.Bearish|240",
+          "Candle.DojiStar.Bearish|1W",
+          "Candle.DojiStar.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bullish",
+          "Candle.DojiStar.Bullish|1",
+          "Candle.DojiStar.Bullish|5",
+          "Candle.DojiStar.Bullish|15",
+          "Candle.DojiStar.Bullish|30",
+          "Candle.DojiStar.Bullish|60",
+          "Candle.DojiStar.Bullish|120",
+          "Candle.DojiStar.Bullish|240",
+          "Candle.DojiStar.Bullish|1W",
+          "Candle.DojiStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.DownsideTasukiGap.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DownsideTasukiGap.Bearish",
+          "Candle.DownsideTasukiGap.Bearish|1",
+          "Candle.DownsideTasukiGap.Bearish|5",
+          "Candle.DownsideTasukiGap.Bearish|15",
+          "Candle.DownsideTasukiGap.Bearish|30",
+          "Candle.DownsideTasukiGap.Bearish|60",
+          "Candle.DownsideTasukiGap.Bearish|120",
+          "Candle.DownsideTasukiGap.Bearish|240",
+          "Candle.DownsideTasukiGap.Bearish|1W",
+          "Candle.DownsideTasukiGap.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.Engulfing.Bearish",
         "displayName": "",
         "type": "number",
@@ -33140,6 +34684,23 @@
         ]
       },
       {
+        "name": "Candle.EveningDojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.EveningDojiStar.Bearish",
+          "Candle.EveningDojiStar.Bearish|1",
+          "Candle.EveningDojiStar.Bearish|5",
+          "Candle.EveningDojiStar.Bearish|15",
+          "Candle.EveningDojiStar.Bearish|30",
+          "Candle.EveningDojiStar.Bearish|60",
+          "Candle.EveningDojiStar.Bearish|120",
+          "Candle.EveningDojiStar.Bearish|240",
+          "Candle.EveningDojiStar.Bearish|1W",
+          "Candle.EveningDojiStar.Bearish|1M"
+        ]
+      },
+      {
         "name": "Candle.EveningStar",
         "displayName": "",
         "type": "number",
@@ -33154,6 +34715,40 @@
           "Candle.EveningStar|240",
           "Candle.EveningStar|1W",
           "Candle.EveningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingThreeMethods.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingThreeMethods.Bearish",
+          "Candle.FallingThreeMethods.Bearish|1",
+          "Candle.FallingThreeMethods.Bearish|5",
+          "Candle.FallingThreeMethods.Bearish|15",
+          "Candle.FallingThreeMethods.Bearish|30",
+          "Candle.FallingThreeMethods.Bearish|60",
+          "Candle.FallingThreeMethods.Bearish|120",
+          "Candle.FallingThreeMethods.Bearish|240",
+          "Candle.FallingThreeMethods.Bearish|1W",
+          "Candle.FallingThreeMethods.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.FallingWindow.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingWindow.Bearish",
+          "Candle.FallingWindow.Bearish|1",
+          "Candle.FallingWindow.Bearish|5",
+          "Candle.FallingWindow.Bearish|15",
+          "Candle.FallingWindow.Bearish|30",
+          "Candle.FallingWindow.Bearish|60",
+          "Candle.FallingWindow.Bearish|120",
+          "Candle.FallingWindow.Bearish|240",
+          "Candle.FallingWindow.Bearish|1W",
+          "Candle.FallingWindow.Bearish|1M"
         ]
       },
       {
@@ -33222,6 +34817,40 @@
           "Candle.Harami.Bullish|240",
           "Candle.Harami.Bullish|1W",
           "Candle.Harami.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bearish",
+          "Candle.HaramiCross.Bearish|1",
+          "Candle.HaramiCross.Bearish|5",
+          "Candle.HaramiCross.Bearish|15",
+          "Candle.HaramiCross.Bearish|30",
+          "Candle.HaramiCross.Bearish|60",
+          "Candle.HaramiCross.Bearish|120",
+          "Candle.HaramiCross.Bearish|240",
+          "Candle.HaramiCross.Bearish|1W",
+          "Candle.HaramiCross.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bullish",
+          "Candle.HaramiCross.Bullish|1",
+          "Candle.HaramiCross.Bullish|5",
+          "Candle.HaramiCross.Bullish|15",
+          "Candle.HaramiCross.Bullish|30",
+          "Candle.HaramiCross.Bullish|60",
+          "Candle.HaramiCross.Bullish|120",
+          "Candle.HaramiCross.Bullish|240",
+          "Candle.HaramiCross.Bullish|1W",
+          "Candle.HaramiCross.Bullish|1M"
         ]
       },
       {
@@ -33344,6 +34973,23 @@
         ]
       },
       {
+        "name": "Candle.MorningDojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.MorningDojiStar.Bullish",
+          "Candle.MorningDojiStar.Bullish|1",
+          "Candle.MorningDojiStar.Bullish|5",
+          "Candle.MorningDojiStar.Bullish|15",
+          "Candle.MorningDojiStar.Bullish|30",
+          "Candle.MorningDojiStar.Bullish|60",
+          "Candle.MorningDojiStar.Bullish|120",
+          "Candle.MorningDojiStar.Bullish|240",
+          "Candle.MorningDojiStar.Bullish|1W",
+          "Candle.MorningDojiStar.Bullish|1M"
+        ]
+      },
+      {
         "name": "Candle.MorningStar",
         "displayName": "",
         "type": "number",
@@ -33358,6 +35004,74 @@
           "Candle.MorningStar|240",
           "Candle.MorningStar|1W",
           "Candle.MorningStar|1M"
+        ]
+      },
+      {
+        "name": "Candle.OnNeck.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.OnNeck.Bearish",
+          "Candle.OnNeck.Bearish|1",
+          "Candle.OnNeck.Bearish|5",
+          "Candle.OnNeck.Bearish|15",
+          "Candle.OnNeck.Bearish|30",
+          "Candle.OnNeck.Bearish|60",
+          "Candle.OnNeck.Bearish|120",
+          "Candle.OnNeck.Bearish|240",
+          "Candle.OnNeck.Bearish|1W",
+          "Candle.OnNeck.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.Piercing.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.Piercing.Bullish",
+          "Candle.Piercing.Bullish|1",
+          "Candle.Piercing.Bullish|5",
+          "Candle.Piercing.Bullish|15",
+          "Candle.Piercing.Bullish|30",
+          "Candle.Piercing.Bullish|60",
+          "Candle.Piercing.Bullish|120",
+          "Candle.Piercing.Bullish|240",
+          "Candle.Piercing.Bullish|1W",
+          "Candle.Piercing.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingThreeMethods.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingThreeMethods.Bullish",
+          "Candle.RisingThreeMethods.Bullish|1",
+          "Candle.RisingThreeMethods.Bullish|5",
+          "Candle.RisingThreeMethods.Bullish|15",
+          "Candle.RisingThreeMethods.Bullish|30",
+          "Candle.RisingThreeMethods.Bullish|60",
+          "Candle.RisingThreeMethods.Bullish|120",
+          "Candle.RisingThreeMethods.Bullish|240",
+          "Candle.RisingThreeMethods.Bullish|1W",
+          "Candle.RisingThreeMethods.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.RisingWindow.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingWindow.Bullish",
+          "Candle.RisingWindow.Bullish|1",
+          "Candle.RisingWindow.Bullish|5",
+          "Candle.RisingWindow.Bullish|15",
+          "Candle.RisingWindow.Bullish|30",
+          "Candle.RisingWindow.Bullish|60",
+          "Candle.RisingWindow.Bullish|120",
+          "Candle.RisingWindow.Bullish|240",
+          "Candle.RisingWindow.Bullish|1W",
+          "Candle.RisingWindow.Bullish|1M"
         ]
       },
       {
@@ -33443,6 +35157,57 @@
           "Candle.TriStar.Bullish|240",
           "Candle.TriStar.Bullish|1W",
           "Candle.TriStar.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerBottom.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerBottom.Bullish",
+          "Candle.TweezerBottom.Bullish|1",
+          "Candle.TweezerBottom.Bullish|5",
+          "Candle.TweezerBottom.Bullish|15",
+          "Candle.TweezerBottom.Bullish|30",
+          "Candle.TweezerBottom.Bullish|60",
+          "Candle.TweezerBottom.Bullish|120",
+          "Candle.TweezerBottom.Bullish|240",
+          "Candle.TweezerBottom.Bullish|1W",
+          "Candle.TweezerBottom.Bullish|1M"
+        ]
+      },
+      {
+        "name": "Candle.TweezerTop.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerTop.Bearish",
+          "Candle.TweezerTop.Bearish|1",
+          "Candle.TweezerTop.Bearish|5",
+          "Candle.TweezerTop.Bearish|15",
+          "Candle.TweezerTop.Bearish|30",
+          "Candle.TweezerTop.Bearish|60",
+          "Candle.TweezerTop.Bearish|120",
+          "Candle.TweezerTop.Bearish|240",
+          "Candle.TweezerTop.Bearish|1W",
+          "Candle.TweezerTop.Bearish|1M"
+        ]
+      },
+      {
+        "name": "Candle.UpsideTasukiGap.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.UpsideTasukiGap.Bullish",
+          "Candle.UpsideTasukiGap.Bullish|1",
+          "Candle.UpsideTasukiGap.Bullish|5",
+          "Candle.UpsideTasukiGap.Bullish|15",
+          "Candle.UpsideTasukiGap.Bullish|30",
+          "Candle.UpsideTasukiGap.Bullish|60",
+          "Candle.UpsideTasukiGap.Bullish|120",
+          "Candle.UpsideTasukiGap.Bullish|240",
+          "Candle.UpsideTasukiGap.Bullish|1W",
+          "Candle.UpsideTasukiGap.Bullish|1M"
         ]
       },
       {
@@ -35645,6 +37410,86 @@
         "type": "percent",
         "variants": [
           "bid_ask_spread_pct"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -37879,6 +39724,14 @@
         ]
       },
       {
+        "name": "Candle.DarkCloudCover.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DarkCloudCover.Bearish"
+        ]
+      },
+      {
         "name": "Candle.Doji",
         "displayName": "",
         "type": "number",
@@ -37903,6 +39756,30 @@
         ]
       },
       {
+        "name": "Candle.DojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bearish"
+        ]
+      },
+      {
+        "name": "Candle.DojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DojiStar.Bullish"
+        ]
+      },
+      {
+        "name": "Candle.DownsideTasukiGap.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.DownsideTasukiGap.Bearish"
+        ]
+      },
+      {
         "name": "Candle.Engulfing.Bearish",
         "displayName": "",
         "type": "number",
@@ -37919,11 +39796,35 @@
         ]
       },
       {
+        "name": "Candle.EveningDojiStar.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.EveningDojiStar.Bearish"
+        ]
+      },
+      {
         "name": "Candle.EveningStar",
         "displayName": "",
         "type": "number",
         "variants": [
           "Candle.EveningStar"
+        ]
+      },
+      {
+        "name": "Candle.FallingThreeMethods.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingThreeMethods.Bearish"
+        ]
+      },
+      {
+        "name": "Candle.FallingWindow.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.FallingWindow.Bearish"
         ]
       },
       {
@@ -37956,6 +39857,22 @@
         "type": "number",
         "variants": [
           "Candle.Harami.Bullish"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bearish"
+        ]
+      },
+      {
+        "name": "Candle.HaramiCross.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.HaramiCross.Bullish"
         ]
       },
       {
@@ -38015,11 +39932,51 @@
         ]
       },
       {
+        "name": "Candle.MorningDojiStar.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.MorningDojiStar.Bullish"
+        ]
+      },
+      {
         "name": "Candle.MorningStar",
         "displayName": "",
         "type": "number",
         "variants": [
           "Candle.MorningStar"
+        ]
+      },
+      {
+        "name": "Candle.OnNeck.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.OnNeck.Bearish"
+        ]
+      },
+      {
+        "name": "Candle.Piercing.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.Piercing.Bullish"
+        ]
+      },
+      {
+        "name": "Candle.RisingThreeMethods.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingThreeMethods.Bullish"
+        ]
+      },
+      {
+        "name": "Candle.RisingWindow.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.RisingWindow.Bullish"
         ]
       },
       {
@@ -38060,6 +40017,30 @@
         "type": "number",
         "variants": [
           "Candle.TriStar.Bullish"
+        ]
+      },
+      {
+        "name": "Candle.TweezerBottom.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerBottom.Bullish"
+        ]
+      },
+      {
+        "name": "Candle.TweezerTop.Bearish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.TweezerTop.Bearish"
+        ]
+      },
+      {
+        "name": "Candle.UpsideTasukiGap.Bullish",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "Candle.UpsideTasukiGap.Bullish"
         ]
       },
       {
@@ -39196,6 +41177,86 @@
         "type": "text",
         "variants": [
           "base_currency_kind"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -40479,6 +42540,86 @@
         ]
       },
       {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
+        ]
+      },
+      {
         "name": "close_1_days_back",
         "displayName": "",
         "type": "number",
@@ -41643,6 +43784,86 @@
         "type": "text",
         "variants": [
           "call_option"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
@@ -43024,6 +45245,86 @@
         ]
       },
       {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
+        ]
+      },
+      {
         "name": "country_code",
         "displayName": "",
         "type": "text",
@@ -43695,6 +45996,86 @@
         "type": "percent",
         "variants": [
           "bid_ask_spread_pct"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_15m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_15m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1D",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1D"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1M",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1M"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1W",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1W"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_1m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_1m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_2h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_2h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_30m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_30m"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_4h",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_4h"
+        ]
+      },
+      {
+        "name": "candlestick_patterns_5m",
+        "displayName": "",
+        "type": "set",
+        "variants": [
+          "candlestick_patterns_5m"
         ]
       },
       {
