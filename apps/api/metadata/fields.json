@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-06-25T08:44:13.002Z",
+  "generatedAt": "2026-06-26T08:45:29.415Z",
   "universes": {
     "stocks": [
       {
@@ -6510,6 +6510,30 @@
         ]
       },
       {
+        "name": "book_value_per_share_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "book_value_per_share_estimate_fh"
+        ]
+      },
+      {
+        "name": "book_value_per_share_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "book_value_per_share_estimate_fq"
+        ]
+      },
+      {
+        "name": "book_value_per_share_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "book_value_per_share_estimate_fy"
+        ]
+      },
+      {
         "name": "book_value_per_share_fh",
         "displayName": "",
         "type": "fundamental_price",
@@ -6587,6 +6611,38 @@
         "type": "fundamental_price",
         "variants": [
           "capex_per_share_ttm"
+        ]
+      },
+      {
+        "name": "capital_expenditures_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "capital_expenditures_estimate_fh"
+        ]
+      },
+      {
+        "name": "capital_expenditures_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "capital_expenditures_estimate_fq"
+        ]
+      },
+      {
+        "name": "capital_expenditures_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "capital_expenditures_estimate_fy"
+        ]
+      },
+      {
+        "name": "capital_expenditures_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "capital_expenditures_estimate_ntm"
         ]
       },
       {
@@ -6694,6 +6750,38 @@
         ]
       },
       {
+        "name": "cash_f_financing_activities_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_financing_activities_estimate_fh"
+        ]
+      },
+      {
+        "name": "cash_f_financing_activities_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_financing_activities_estimate_fq"
+        ]
+      },
+      {
+        "name": "cash_f_financing_activities_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_financing_activities_estimate_fy"
+        ]
+      },
+      {
+        "name": "cash_f_financing_activities_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_financing_activities_estimate_ntm"
+        ]
+      },
+      {
         "name": "cash_f_financing_activities_fh",
         "displayName": "",
         "type": "fundamental_price",
@@ -6723,6 +6811,38 @@
         "type": "fundamental_price",
         "variants": [
           "cash_f_financing_activities_ttm"
+        ]
+      },
+      {
+        "name": "cash_f_investing_activities_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_investing_activities_estimate_fh"
+        ]
+      },
+      {
+        "name": "cash_f_investing_activities_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_investing_activities_estimate_fq"
+        ]
+      },
+      {
+        "name": "cash_f_investing_activities_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_investing_activities_estimate_fy"
+        ]
+      },
+      {
+        "name": "cash_f_investing_activities_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_investing_activities_estimate_ntm"
         ]
       },
       {
@@ -6758,6 +6878,38 @@
         ]
       },
       {
+        "name": "cash_f_operating_activities_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_operating_activities_estimate_fh"
+        ]
+      },
+      {
+        "name": "cash_f_operating_activities_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_operating_activities_estimate_fq"
+        ]
+      },
+      {
+        "name": "cash_f_operating_activities_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_operating_activities_estimate_fy"
+        ]
+      },
+      {
+        "name": "cash_f_operating_activities_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_f_operating_activities_estimate_ntm"
+        ]
+      },
+      {
         "name": "cash_f_operating_activities_fh",
         "displayName": "",
         "type": "fundamental_price",
@@ -6787,6 +6939,30 @@
         "type": "fundamental_price",
         "variants": [
           "cash_f_operating_activities_ttm"
+        ]
+      },
+      {
+        "name": "cash_n_short_term_invest_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_n_short_term_invest_estimate_fh"
+        ]
+      },
+      {
+        "name": "cash_n_short_term_invest_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_n_short_term_invest_estimate_fq"
+        ]
+      },
+      {
+        "name": "cash_n_short_term_invest_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cash_n_short_term_invest_estimate_fy"
         ]
       },
       {
@@ -6891,6 +7067,38 @@
         "type": "number",
         "variants": [
           "continuous_dividend_payout"
+        ]
+      },
+      {
+        "name": "cost_of_goods_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cost_of_goods_estimate_fh"
+        ]
+      },
+      {
+        "name": "cost_of_goods_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cost_of_goods_estimate_fq"
+        ]
+      },
+      {
+        "name": "cost_of_goods_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cost_of_goods_estimate_fy"
+        ]
+      },
+      {
+        "name": "cost_of_goods_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "cost_of_goods_estimate_ntm"
         ]
       },
       {
@@ -7262,6 +7470,38 @@
         ]
       },
       {
+        "name": "dps_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "dps_estimate_fh"
+        ]
+      },
+      {
+        "name": "dps_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "dps_estimate_fq"
+        ]
+      },
+      {
+        "name": "dps_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "dps_estimate_fy"
+        ]
+      },
+      {
+        "name": "dps_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "dps_estimate_ntm"
+        ]
+      },
+      {
         "name": "earnings_fq_h",
         "displayName": "",
         "type": "interface",
@@ -7494,6 +7734,38 @@
         ]
       },
       {
+        "name": "ebit_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebit_estimate_fh"
+        ]
+      },
+      {
+        "name": "ebit_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebit_estimate_fq"
+        ]
+      },
+      {
+        "name": "ebit_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebit_estimate_fy"
+        ]
+      },
+      {
+        "name": "ebit_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebit_estimate_ntm"
+        ]
+      },
+      {
         "name": "ebit_per_share_current",
         "displayName": "",
         "type": "fundamental_price",
@@ -7539,6 +7811,38 @@
         "type": "fundamental_price",
         "variants": [
           "ebit_ttm"
+        ]
+      },
+      {
+        "name": "ebitda_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebitda_estimate_fh"
+        ]
+      },
+      {
+        "name": "ebitda_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebitda_estimate_fq"
+        ]
+      },
+      {
+        "name": "ebitda_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebitda_estimate_fy"
+        ]
+      },
+      {
+        "name": "ebitda_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "ebitda_estimate_ntm"
         ]
       },
       {
@@ -7718,11 +8022,35 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
         "name": "enterprise_value_ebitda_current",
         "displayName": "",
         "type": "number",
         "variants": [
           "enterprise_value_ebitda_current"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
         ]
       },
       {
@@ -7771,6 +8099,14 @@
         "type": "percent",
         "variants": [
           "eps_diluted_growth_percent_fy"
+        ]
+      },
+      {
+        "name": "eps_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "eps_estimate_ntm"
         ]
       },
       {
@@ -7979,6 +8315,38 @@
         "type": "percent",
         "variants": [
           "free_cash_flow_cagr_5y"
+        ]
+      },
+      {
+        "name": "free_cash_flow_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "free_cash_flow_estimate_fh"
+        ]
+      },
+      {
+        "name": "free_cash_flow_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "free_cash_flow_estimate_fq"
+        ]
+      },
+      {
+        "name": "free_cash_flow_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "free_cash_flow_estimate_fy"
+        ]
+      },
+      {
+        "name": "free_cash_flow_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "free_cash_flow_estimate_ntm"
         ]
       },
       {
@@ -8279,6 +8647,38 @@
         "type": "percent",
         "variants": [
           "gross_margin_ttm"
+        ]
+      },
+      {
+        "name": "gross_profit_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "gross_profit_estimate_fh"
+        ]
+      },
+      {
+        "name": "gross_profit_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "gross_profit_estimate_fq"
+        ]
+      },
+      {
+        "name": "gross_profit_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "gross_profit_estimate_fy"
+        ]
+      },
+      {
+        "name": "gross_profit_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "gross_profit_estimate_ntm"
         ]
       },
       {
@@ -9172,6 +9572,38 @@
         ]
       },
       {
+        "name": "net_income_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_income_estimate_fh"
+        ]
+      },
+      {
+        "name": "net_income_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_income_estimate_fq"
+        ]
+      },
+      {
+        "name": "net_income_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_income_estimate_fy"
+        ]
+      },
+      {
+        "name": "net_income_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "net_income_estimate_ntm"
+        ]
+      },
+      {
         "name": "net_income_fh",
         "displayName": "",
         "type": "fundamental_price",
@@ -9615,6 +10047,14 @@
         ]
       },
       {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
         "name": "price_cash_flow_current",
         "displayName": "",
         "type": "number",
@@ -9636,6 +10076,14 @@
         "type": "number",
         "variants": [
           "price_earnings_forward_fy"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
         ]
       },
       {
@@ -9668,6 +10116,14 @@
         "type": "number",
         "variants": [
           "price_sales_current"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -9975,6 +10431,38 @@
         ]
       },
       {
+        "name": "research_and_dev_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "research_and_dev_estimate_fh"
+        ]
+      },
+      {
+        "name": "research_and_dev_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "research_and_dev_estimate_fq"
+        ]
+      },
+      {
+        "name": "research_and_dev_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "research_and_dev_estimate_fy"
+        ]
+      },
+      {
+        "name": "research_and_dev_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "research_and_dev_estimate_ntm"
+        ]
+      },
+      {
         "name": "research_and_dev_fh",
         "displayName": "",
         "type": "fundamental_price",
@@ -10167,6 +10655,14 @@
         ]
       },
       {
+        "name": "revenue_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "revenue_estimate_ntm"
+        ]
+      },
+      {
         "name": "revenue_forecast_fq",
         "displayName": "",
         "type": "fundamental_price",
@@ -10308,6 +10804,38 @@
         "type": "fundamental_price",
         "variants": [
           "sell_gen_admin_exp_other_ttm"
+        ]
+      },
+      {
+        "name": "sell_gen_admin_exp_total_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "sell_gen_admin_exp_total_estimate_fh"
+        ]
+      },
+      {
+        "name": "sell_gen_admin_exp_total_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "sell_gen_admin_exp_total_estimate_fq"
+        ]
+      },
+      {
+        "name": "sell_gen_admin_exp_total_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "sell_gen_admin_exp_total_estimate_fy"
+        ]
+      },
+      {
+        "name": "sell_gen_admin_exp_total_estimate_ntm",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "sell_gen_admin_exp_total_estimate_ntm"
         ]
       },
       {
@@ -10496,6 +11024,30 @@
         ]
       },
       {
+        "name": "total_assets_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "total_assets_estimate_fh"
+        ]
+      },
+      {
+        "name": "total_assets_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "total_assets_estimate_fq"
+        ]
+      },
+      {
+        "name": "total_assets_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "total_assets_estimate_fy"
+        ]
+      },
+      {
         "name": "total_assets_fq",
         "displayName": "",
         "type": "fundamental_price",
@@ -10621,6 +11173,30 @@
         "type": "fundamental_price",
         "variants": [
           "total_current_liabilities_fy"
+        ]
+      },
+      {
+        "name": "total_debt_estimate_fh",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "total_debt_estimate_fh"
+        ]
+      },
+      {
+        "name": "total_debt_estimate_fq",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "total_debt_estimate_fq"
+        ]
+      },
+      {
+        "name": "total_debt_estimate_fy",
+        "displayName": "",
+        "type": "fundamental_price",
+        "variants": [
+          "total_debt_estimate_fy"
         ]
       },
       {
@@ -17255,6 +17831,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -17701,6 +18301,30 @@
         "type": "time",
         "variants": [
           "price_52_week_low_date"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -23683,6 +24307,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -24201,6 +24849,30 @@
         "type": "time",
         "variants": [
           "price_52_week_low_date"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -30620,6 +31292,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -31210,6 +31906,30 @@
         "type": "time",
         "variants": [
           "price_52_week_low_date"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -37181,6 +37901,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -37699,6 +38443,30 @@
         "type": "time",
         "variants": [
           "price_52_week_low_date"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -40860,6 +41628,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -41121,6 +41913,30 @@
         "type": "time",
         "variants": [
           "price_52_week_low_date"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -42172,6 +42988,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -42450,6 +43290,30 @@
         "type": "time",
         "variants": [
           "price_52_week_low_date"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -43563,6 +44427,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -44040,6 +44928,30 @@
         "type": "text",
         "variants": [
           "premature_redemption"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -44685,6 +45597,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -44866,6 +45802,30 @@
         "type": "price",
         "variants": [
           "pre_change_abs"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
@@ -45343,6 +46303,30 @@
         ]
       },
       {
+        "name": "enterprise_value_ebit_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebit_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_ebitda_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_ebitda_fwd"
+        ]
+      },
+      {
+        "name": "enterprise_value_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "enterprise_value_sales_fwd"
+        ]
+      },
+      {
         "name": "expiration",
         "displayName": "",
         "type": "time",
@@ -45548,6 +46532,30 @@
         "type": "price",
         "variants": [
           "pre_change_abs"
+        ]
+      },
+      {
+        "name": "price_book_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_book_fwd"
+        ]
+      },
+      {
+        "name": "price_earnings_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_earnings_fwd"
+        ]
+      },
+      {
+        "name": "price_sales_fwd",
+        "displayName": "",
+        "type": "number",
+        "variants": [
+          "price_sales_fwd"
         ]
       },
       {
