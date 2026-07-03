@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-07-02T08:37:50.213Z",
+  "generatedAt": "2026-07-03T08:44:11.120Z",
   "universes": {
     "stocks": [
       {
@@ -10839,6 +10839,14 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "share_buyback_ratio_fq",
         "displayName": "",
         "type": "percent",
@@ -10940,6 +10948,14 @@
         "type": "text",
         "variants": [
           "strategy"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -18401,6 +18417,14 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "social_volume_24h",
         "displayName": "",
         "type": "number",
@@ -18422,6 +18446,14 @@
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -25012,11 +25044,27 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "source-logoid",
         "displayName": "",
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -31973,6 +32021,14 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "short_liquidations_volume_12h",
         "displayName": "",
         "type": "number",
@@ -32034,6 +32090,14 @@
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -38606,11 +38670,27 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "source-logoid",
         "displayName": "",
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -42068,11 +42148,27 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "source-logoid",
         "displayName": "",
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -43453,11 +43549,27 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "source-logoid",
         "displayName": "",
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
@@ -45155,6 +45267,14 @@
         ]
       },
       {
+        "name": "session-holidays",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "session-holidays"
+        ]
+      },
+      {
         "name": "sinking_fund",
         "displayName": "",
         "type": "text",
@@ -45176,6 +45296,14 @@
         "type": "text",
         "variants": [
           "source-logoid"
+        ]
+      },
+      {
+        "name": "subsessions",
+        "displayName": "",
+        "type": "interface",
+        "variants": [
+          "subsessions"
         ]
       },
       {
