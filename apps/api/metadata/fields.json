@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-07-03T08:44:11.120Z",
+  "generatedAt": "2026-07-04T08:18:10.511Z",
   "universes": {
     "stocks": [
       {
@@ -10839,14 +10839,6 @@
         ]
       },
       {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
-        ]
-      },
-      {
         "name": "share_buyback_ratio_fq",
         "displayName": "",
         "type": "percent",
@@ -18417,14 +18409,6 @@
         ]
       },
       {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
-        ]
-      },
-      {
         "name": "social_volume_24h",
         "displayName": "",
         "type": "number",
@@ -25041,14 +25025,6 @@
         "type": "price",
         "variants": [
           "rtc"
-        ]
-      },
-      {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
         ]
       },
       {
@@ -32021,14 +31997,6 @@
         ]
       },
       {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
-        ]
-      },
-      {
         "name": "short_liquidations_volume_12h",
         "displayName": "",
         "type": "number",
@@ -38670,14 +38638,6 @@
         ]
       },
       {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
-        ]
-      },
-      {
         "name": "source-logoid",
         "displayName": "",
         "type": "text",
@@ -42148,14 +42108,6 @@
         ]
       },
       {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
-        ]
-      },
-      {
         "name": "source-logoid",
         "displayName": "",
         "type": "text",
@@ -43546,14 +43498,6 @@
         "type": "price",
         "variants": [
           "rtc"
-        ]
-      },
-      {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
         ]
       },
       {
@@ -45264,14 +45208,6 @@
         "type": "text",
         "variants": [
           "seniority_level"
-        ]
-      },
-      {
-        "name": "session-holidays",
-        "displayName": "",
-        "type": "text",
-        "variants": [
-          "session-holidays"
         ]
       },
       {
