@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-08-19T06:21:25.194Z",
+  "generatedAt": "2026-08-20T06:22:12.289Z",
   "universes": {
     "stocks": [
       {
@@ -44075,6 +44075,14 @@
         ]
       },
       {
+        "name": "bond_moodys_rating_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "bond_moodys_rating_lt"
+        ]
+      },
+      {
         "name": "bond_snp_outlook_lt",
         "displayName": "",
         "type": "text",
@@ -44688,6 +44696,30 @@
         "type": "text",
         "variants": [
           "issuer_fitch_rating_st"
+        ]
+      },
+      {
+        "name": "issuer_moodys_outlook_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_moodys_outlook_lt"
+        ]
+      },
+      {
+        "name": "issuer_moodys_rating_lt",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_moodys_rating_lt"
+        ]
+      },
+      {
+        "name": "issuer_moodys_rating_st",
+        "displayName": "",
+        "type": "text",
+        "variants": [
+          "issuer_moodys_rating_st"
         ]
       },
       {
